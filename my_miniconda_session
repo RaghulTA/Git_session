@@ -1,0 +1,5403 @@
+Script started on 2023-12-31 10:47:17+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="64" LINES="31"]
+[?2004h(base) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ cd gi[K=[K[KGit_session/
+[?2004l[?2004h(base) ]0;raghul_5677@TIGER0821: ~/Git_session[01;32mraghul_5677@TIGER0821[00m:[01;34m~/Git_session[00m$ ls
+[?2004lREADME.md  my_git_session  my_unix_session2
+[?2004h(base) ]0;raghul_5677@TIGER0821: ~/Git_session[01;32mraghul_5677@TIGER0821[00m:[01;34m~/Git_session[00m$ cd ..
+[?2004l[?2004h(base) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ conda create -n env-test
+[?2004lChannels:
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | done
+Solving environment: - done
+
+## Package Plan ##
+
+  environment location: /home/raghul_5677/miniconda3/envs/env-test
+
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: | done
+Verifying transaction: - done
+Executing transaction: | done
+#
+# To activate this environment, use
+#
+#     $ conda activate env-test
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+[?2004h(base) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ conda info --envs
+[?2004l# conda environments:
+#
+base                  *  /home/raghul_5677/miniconda3
+env-test                 /home/raghul_5677/miniconda3/envs/env-test
+
+[?2004h(base) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ conaa [K[K[Kda env lst[K[Kist
+[?2004l# conda environments:
+#
+base                  *  /home/raghul_5677/miniconda3
+env-test                 /home/raghul_5677/miniconda3/envs/env-test
+
+[?2004h(base) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ conda activate env-test
+[?2004l[?2004h(env-test) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ cn[Konda aci[Ktivate
+[?2004l[?2004h(base) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ conda activate env-test
+[?2004l[?2004h(env-test) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ conda ac[K[Kinstall matploy=tp[Kl[K[K[K[Ktlib
+[?2004lChannels:
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): - \ | / - \ done
+Solving environment: / - \ done
+
+## Package Plan ##
+
+  environment location: /home/raghul_5677/miniconda3/envs/env-test
+
+  added / updated specs:
+    - matplotlib
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    blas-1.0                   |              mkl           6 KB
+    brotli-1.0.9               |       h5eee18b_7          18 KB
+    brotli-bin-1.0.9           |       h5eee18b_7          19 KB
+    contourpy-1.2.0            |  py312hdb19cb5_0         238 KB
+    cycler-0.11.0              |     pyhd3eb1b0_0          12 KB
+    cyrus-sasl-2.1.28          |       h52b45da_1         237 KB
+    dbus-1.13.18               |       hb2f20db_0         504 KB
+    expat-2.5.0                |       h6a678d5_0         172 KB
+    fontconfig-2.14.1          |       h4c34cd2_2         281 KB
+    fonttools-4.25.0           |     pyhd3eb1b0_0         632 KB
+    freetype-2.12.1            |       h4a9f257_0         626 KB
+    giflib-5.2.1               |       h5eee18b_3          80 KB
+    glib-2.69.1                |       he621ea3_2         1.9 MB
+    gst-plugins-base-1.14.1    |       h6a678d5_1         2.2 MB
+    gstreamer-1.14.1           |       h5eee18b_1         1.7 MB
+    intel-openmp-2023.1.0      |   hdb19cb5_46306        17.2 MB
+    jpeg-9e                    |       h5eee18b_1         262 KB
+    kiwisolver-1.4.4           |  py312h6a678d5_0          68 KB
+    lcms2-2.12                 |       h3be6417_0         312 KB
+    lerc-3.0                   |       h295c915_0         196 KB
+    libbrotlicommon-1.0.9      |       h5eee18b_7          70 KB
+    libbrotlidec-1.0.9         |       h5eee18b_7          31 KB
+    libbrotlienc-1.0.9         |       h5eee18b_7         264 KB
+    libclang-14.0.6            |default_hc6dbbc7_1         137 KB
+    libclang13-14.0.6          |default_he11475f_1         9.8 MB
+    libcups-2.4.2              |       h2d74bed_1         4.5 MB
+    libdeflate-1.17            |       h5eee18b_1          64 KB
+    libllvm14-14.0.6           |       hdb19cb5_3        33.4 MB
+    libpng-1.6.39              |       h5eee18b_0         304 KB
+    libpq-12.15                |       hdbd6064_1         2.4 MB
+    libtiff-4.5.1              |       h6a678d5_0         533 KB
+    libwebp-1.3.2              |       h11a3e52_0          87 KB
+    libwebp-base-1.3.2         |       h5eee18b_0         387 KB
+    libxcb-1.15                |       h7f8727e_0         505 KB
+    libxkbcommon-1.0.1         |       h5eee18b_1         590 KB
+    matplotlib-3.8.0           |  py312h06a4308_0           8 KB
+    matplotlib-base-3.8.0      |  py312h526ad5a_0         6.9 MB
+    mkl-2023.1.0               |   h213fc3f_46344       171.5 MB
+    mkl-service-2.4.0          |  py312h5eee18b_1          66 KB
+    mkl_fft-1.3.8              |  py312h5eee18b_0         204 KB
+    mkl_random-1.2.4           |  py312hdb19cb5_0         284 KB
+    munkres-1.1.4              |             py_0          13 KB
+    mysql-5.7.24               |       h721c034_2        60.0 MB
+    numpy-1.26.2               |  py312hc5e2394_0          10 KB
+    numpy-base-1.26.2          |  py312h0da6c21_0         7.7 MB
+    openjpeg-2.4.0             |       h3ad879b_0         331 KB
+    packaging-23.1             |  py312h06a4308_0          90 KB
+    pcre-8.45                  |       h295c915_0         207 KB
+    pillow-10.0.1              |  py312ha6cbd5a_0         810 KB
+    pip-23.3.1                 |  py312h06a4308_0         2.8 MB
+    ply-3.11                   |  py312h06a4308_1         109 KB
+    pyparsing-3.0.9            |  py312h06a4308_0         197 KB
+    pyqt-5.15.10               |  py312h6a678d5_0         5.0 MB
+    pyqt5-sip-12.13.0          |  py312h5eee18b_0          88 KB
+    python-3.12.0              |       h996f2a0_0        35.0 MB
+    python-dateutil-2.8.2      |     pyhd3eb1b0_0         233 KB
+    qt-main-5.15.2             |      h53bd1ea_10        53.7 MB
+    setuptools-68.2.2          |  py312h06a4308_0         1.2 MB
+    sip-6.7.12                 |  py312h6a678d5_0         553 KB
+    six-1.16.0                 |     pyhd3eb1b0_1          18 KB
+    tbb-2021.8.0               |       hdb19cb5_0         1.6 MB
+    tornado-6.3.3              |  py312h5eee18b_0         787 KB
+    wheel-0.41.2               |  py312h06a4308_0         131 KB
+    ------------------------------------------------------------
+                                           Total:       428.7 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main 
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu 
+  blas               pkgs/main/linux-64::blas-1.0-mkl 
+  brotli             pkgs/main/linux-64::brotli-1.0.9-h5eee18b_7 
+  brotli-bin         pkgs/main/linux-64::brotli-bin-1.0.9-h5eee18b_7 
+  bzip2              pkgs/main/linux-64::bzip2-1.0.8-h7b6447c_0 
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2023.12.12-h06a4308_0 
+  contourpy          pkgs/main/linux-64::contourpy-1.2.0-py312hdb19cb5_0 
+  cycler             pkgs/main/noarch::cycler-0.11.0-pyhd3eb1b0_0 
+  cyrus-sasl         pkgs/main/linux-64::cyrus-sasl-2.1.28-h52b45da_1 
+  dbus               pkgs/main/linux-64::dbus-1.13.18-hb2f20db_0 
+  expat              pkgs/main/linux-64::expat-2.5.0-h6a678d5_0 
+  fontconfig         pkgs/main/linux-64::fontconfig-2.14.1-h4c34cd2_2 
+  fonttools          pkgs/main/noarch::fonttools-4.25.0-pyhd3eb1b0_0 
+  freetype           pkgs/main/linux-64::freetype-2.12.1-h4a9f257_0 
+  giflib             pkgs/main/linux-64::giflib-5.2.1-h5eee18b_3 
+  glib               pkgs/main/linux-64::glib-2.69.1-he621ea3_2 
+  gst-plugins-base   pkgs/main/linux-64::gst-plugins-base-1.14.1-h6a678d5_1 
+  gstreamer          pkgs/main/linux-64::gstreamer-1.14.1-h5eee18b_1 
+  icu                pkgs/main/linux-64::icu-73.1-h6a678d5_0 
+  intel-openmp       pkgs/main/linux-64::intel-openmp-2023.1.0-hdb19cb5_46306 
+  jpeg               pkgs/main/linux-64::jpeg-9e-h5eee18b_1 
+  kiwisolver         pkgs/main/linux-64::kiwisolver-1.4.4-py312h6a678d5_0 
+  krb5               pkgs/main/linux-64::krb5-1.20.1-h143b758_1 
+  lcms2              pkgs/main/linux-64::lcms2-2.12-h3be6417_0 
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.38-h1181459_1 
+  lerc               pkgs/main/linux-64::lerc-3.0-h295c915_0 
+  libbrotlicommon    pkgs/main/linux-64::libbrotlicommon-1.0.9-h5eee18b_7 
+  libbrotlidec       pkgs/main/linux-64::libbrotlidec-1.0.9-h5eee18b_7 
+  libbrotlienc       pkgs/main/linux-64::libbrotlienc-1.0.9-h5eee18b_7 
+  libclang           pkgs/main/linux-64::libclang-14.0.6-default_hc6dbbc7_1 
+  libclang13         pkgs/main/linux-64::libclang13-14.0.6-default_he11475f_1 
+  libcups            pkgs/main/linux-64::libcups-2.4.2-h2d74bed_1 
+  libdeflate         pkgs/main/linux-64::libdeflate-1.17-h5eee18b_1 
+  libedit            pkgs/main/linux-64::libedit-3.1.20230828-h5eee18b_0 
+  libffi             pkgs/main/linux-64::libffi-3.4.4-h6a678d5_0 
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1 
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1 
+  libllvm14          pkgs/main/linux-64::libllvm14-14.0.6-hdb19cb5_3 
+  libpng             pkgs/main/linux-64::libpng-1.6.39-h5eee18b_0 
+  libpq              pkgs/main/linux-64::libpq-12.15-hdbd6064_1 
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1 
+  libtiff            pkgs/main/linux-64::libtiff-4.5.1-h6a678d5_0 
+  libuuid            pkgs/main/linux-64::libuuid-1.41.5-h5eee18b_0 
+  libwebp            pkgs/main/linux-64::libwebp-1.3.2-h11a3e52_0 
+  libwebp-base       pkgs/main/linux-64::libwebp-base-1.3.2-h5eee18b_0 
+  libxcb             pkgs/main/linux-64::libxcb-1.15-h7f8727e_0 
+  libxkbcommon       pkgs/main/linux-64::libxkbcommon-1.0.1-h5eee18b_1 
+  libxml2            pkgs/main/linux-64::libxml2-2.10.4-hf1b16e4_1 
+  lz4-c              pkgs/main/linux-64::lz4-c-1.9.4-h6a678d5_0 
+  matplotlib         pkgs/main/linux-64::matplotlib-3.8.0-py312h06a4308_0 
+  matplotlib-base    pkgs/main/linux-64::matplotlib-base-3.8.0-py312h526ad5a_0 
+  mkl                pkgs/main/linux-64::mkl-2023.1.0-h213fc3f_46344 
+  mkl-service        pkgs/main/linux-64::mkl-service-2.4.0-py312h5eee18b_1 
+  mkl_fft            pkgs/main/linux-64::mkl_fft-1.3.8-py312h5eee18b_0 
+  mkl_random         pkgs/main/linux-64::mkl_random-1.2.4-py312hdb19cb5_0 
+  munkres            pkgs/main/noarch::munkres-1.1.4-py_0 
+  mysql              pkgs/main/linux-64::mysql-5.7.24-h721c034_2 
+  ncurses            pkgs/main/linux-64::ncurses-6.4-h6a678d5_0 
+  numpy              pkgs/main/linux-64::numpy-1.26.2-py312hc5e2394_0 
+  numpy-base         pkgs/main/linux-64::numpy-base-1.26.2-py312h0da6c21_0 
+  openjpeg           pkgs/main/linux-64::openjpeg-2.4.0-h3ad879b_0 
+  openssl            pkgs/main/linux-64::openssl-3.0.12-h7f8727e_0 
+  packaging          pkgs/main/linux-64::packaging-23.1-py312h06a4308_0 
+  pcre               pkgs/main/linux-64::pcre-8.45-h295c915_0 
+  pillow             pkgs/main/linux-64::pillow-10.0.1-py312ha6cbd5a_0 
+  pip                pkgs/main/linux-64::pip-23.3.1-py312h06a4308_0 
+  ply                pkgs/main/linux-64::ply-3.11-py312h06a4308_1 
+  pyparsing          pkgs/main/linux-64::pyparsing-3.0.9-py312h06a4308_0 
+  pyqt               pkgs/main/linux-64::pyqt-5.15.10-py312h6a678d5_0 
+  pyqt5-sip          pkgs/main/linux-64::pyqt5-sip-12.13.0-py312h5eee18b_0 
+  python             pkgs/main/linux-64::python-3.12.0-h996f2a0_0 
+  python-dateutil    pkgs/main/noarch::python-dateutil-2.8.2-pyhd3eb1b0_0 
+  qt-main            pkgs/main/linux-64::qt-main-5.15.2-h53bd1ea_10 
+  readline           pkgs/main/linux-64::readline-8.2-h5eee18b_0 
+  setuptools         pkgs/main/linux-64::setuptools-68.2.2-py312h06a4308_0 
+  sip                pkgs/main/linux-64::sip-6.7.12-py312h6a678d5_0 
+  six                pkgs/main/noarch::six-1.16.0-pyhd3eb1b0_1 
+  sqlite             pkgs/main/linux-64::sqlite-3.41.2-h5eee18b_0 
+  tbb                pkgs/main/linux-64::tbb-2021.8.0-hdb19cb5_0 
+  tk                 pkgs/main/linux-64::tk-8.6.12-h1ccaba5_0 
+  tornado            pkgs/main/linux-64::tornado-6.3.3-py312h5eee18b_0 
+  tzdata             pkgs/main/noarch::tzdata-2023c-h04d1e81_0 
+  wheel              pkgs/main/linux-64::wheel-0.41.2-py312h06a4308_0 
+  xz                 pkgs/main/linux-64::xz-5.4.5-h5eee18b_0 
+  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_0 
+  zstd               pkgs/main/linux-64::zstd-1.5.5-hc292b87_0 
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+mkl-2023.1.0         | 171.5 MB  |                       |   0% 
+mysql-5.7.24         | 60.0 MB   |                       |   0% [A
+
+qt-main-5.15.2       | 53.7 MB   |                       |   0% [A[A
+
+
+python-3.12.0        | 35.0 MB   |                       |   0% [A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   |                       |   0% [A[A[A[A
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   |                       |   0% [A[A[A[A[A
+
+
+
+
+
+libclang13-14.0.6    | 9.8 MB    |                       |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+numpy-base-1.26.2    | 7.7 MB    |                       |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+matplotlib-base-3.8. | 6.9 MB    |                       |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+pyqt-5.15.10         | 5.0 MB    |                       |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libcups-2.4.2        | 4.5 MB    |                       |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+pip-23.3.1           | 2.8 MB    |                       |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libpq-12.15          | 2.4 MB    |                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+gst-plugins-base-1.1 | 2.2 MB    |                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+glib-2.69.1          | 1.9 MB    |                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gstreamer-1.14.1     | 1.7 MB    |                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    |                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setuptools-68.2.2    | 1.2 MB    |                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pillow-10.0.1        | 810 KB    |                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tornado-6.3.3        | 787 KB    |                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fonttools-4.25.0     | 632 KB    |                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+freetype-2.12.1      | 626 KB    |                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libxkbcommon-1.0.1   | 590 KB    |                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sip-6.7.12           | 553 KB    |                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libtiff-4.5.1        | 533 KB    |                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libxcb-1.15          | 505 KB    |                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dbus-1.13.18         | 504 KB    |                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libwebp-base-1.3.2   | 387 KB    |                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+openjpeg-2.4.0       | 331 KB    |                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lcms2-2.12           | 312 KB    |                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  |                       |   0% 
+mysql-5.7.24         | 60.0 MB   |                       |   0% [A
+
+qt-main-5.15.2       | 53.7 MB   |                       |   0% [A[A
+
+
+python-3.12.0        | 35.0 MB   |                       |   0% [A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   |                       |   0% [A[A[A[Amkl-2023.1.0         | 171.5 MB  |                       |   0% 
+mysql-5.7.24         | 60.0 MB   |                       |   0% [A
+
+qt-main-5.15.2       | 53.7 MB   |                       |   0% [A[A
+
+
+python-3.12.0        | 35.0 MB   |                       |   0% [A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   |                       |   0% [A[A[A[Amkl-2023.1.0         | 171.5 MB  |                       |   0% 
+mysql-5.7.24         | 60.0 MB   |                       |   0% [A
+
+qt-main-5.15.2       | 53.7 MB   | 1                     |   0% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | 1                     |   1% [A[A[A[Amkl-2023.1.0         | 171.5 MB  |                       |   0% 
+mysql-5.7.24         | 60.0 MB   | 1                     |   1% [A
+
+qt-main-5.15.2       | 53.7 MB   | 1                     |   1% [A[A
+
+
+python-3.12.0        | 35.0 MB   | 1                     |   1% [A[A[A
+mysql-5.7.24         | 60.0 MB   | 1                     |   1% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | 2                     |   1% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | 3                     |   1% [A[A
+mysql-5.7.24         | 60.0 MB   | 2                     |   1% [A
+
+qt-main-5.15.2       | 53.7 MB   | 3                     |   2% [A[A
+mysql-5.7.24         | 60.0 MB   | 3                     |   2% [Amkl-2023.1.0         | 171.5 MB  |                       |   0% 
+
+
+python-3.12.0        | 35.0 MB   | 3                     |   2% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | 4                     |   2% [A[A
+mysql-5.7.24         | 60.0 MB   | 4                     |   2% [Amkl-2023.1.0         | 171.5 MB  | 1                     |   1% 
+mysql-5.7.24         | 60.0 MB   | 5                     |   3% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | 2                     |   1% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | 7                     |   4% [A[A[Amkl-2023.1.0         | 171.5 MB  | 1                     |   1% 
+
+qt-main-5.15.2       | 53.7 MB   | 6                     |   3% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | 5                     |   2% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | 9                     |   5% [A[A[Amkl-2023.1.0         | 171.5 MB  | 1                     |   1% 
+
+qt-main-5.15.2       | 53.7 MB   | 6                     |   3% [A[A
+mysql-5.7.24         | 60.0 MB   | 6                     |   3% [A
+
+
+python-3.12.0        | 35.0 MB   | #1                    |   6% [A[A[Amkl-2023.1.0         | 171.5 MB  | 2                     |   1% 
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | 6                     |   3% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | 7                     |   4% [A[Amkl-2023.1.0         | 171.5 MB  | 2                     |   1% 
+mysql-5.7.24         | 60.0 MB   | 7                     |   3% [A
+
+
+python-3.12.0        | 35.0 MB   | #3                    |   6% [A[A[Amkl-2023.1.0         | 171.5 MB  | 2                     |   1% 
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | 6                     |   3% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | 8                     |   4% [A[A
+
+
+python-3.12.0        | 35.0 MB   | #4                    |   7% [A[A[A
+mysql-5.7.24         | 60.0 MB   | 7                     |   4% [Amkl-2023.1.0         | 171.5 MB  | 2                     |   1% 
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | 7                     |   4% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | #6                    |   8% [A[A[A
+mysql-5.7.24         | 60.0 MB   | 8                     |   4% [A
+
+qt-main-5.15.2       | 53.7 MB   | 9                     |   4% [A[Amkl-2023.1.0         | 171.5 MB  | 3                     |   1% 
+
+
+python-3.12.0        | 35.0 MB   | #7                    |   9% [A[A[Amkl-2023.1.0         | 171.5 MB  | 3                     |   2% 
+mysql-5.7.24         | 60.0 MB   | 8                     |   4% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | 8                     |   4% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | 9                     |   5% [A[A
+
+
+python-3.12.0        | 35.0 MB   | #9                    |   9% [A[A[Amkl-2023.1.0         | 171.5 MB  | 3                     |   2% 
+mysql-5.7.24         | 60.0 MB   | 9                     |   5% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | 9                     |   4% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | #                     |   5% [A[A
+
+
+python-3.12.0        | 35.0 MB   | ##                    |  10% [A[A[Amkl-2023.1.0         | 171.5 MB  | 3                     |   2% 
+mysql-5.7.24         | 60.0 MB   | 9                     |   5% [A
+
+
+python-3.12.0        | 35.0 MB   | ##2                   |  11% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | #1                    |   5% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | 9                     |   5% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | ##3                   |  11% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | #1                    |   6% [A[A
+mysql-5.7.24         | 60.0 MB   | #                     |   5% [Amkl-2023.1.0         | 171.5 MB  | 4                     |   2% 
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #                     |   5% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | ##5                   |  12% [A[A[Amkl-2023.1.0         | 171.5 MB  | 4                     |   2% 
+mysql-5.7.24         | 60.0 MB   | #                     |   5% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #1                    |   5% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | ##6                   |  13% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | #2                    |   6% [A[A
+
+qt-main-5.15.2       | 53.7 MB   | #2                    |   6% [A[A
+mysql-5.7.24         | 60.0 MB   | #1                    |   5% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #1                    |   6% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | 4                     |   2% 
+
+
+python-3.12.0        | 35.0 MB   | ##7                   |  13% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | #3                    |   7% [A[A
+mysql-5.7.24         | 60.0 MB   | #1                    |   6% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #3                    |   6% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | 4                     |   2% 
+
+
+python-3.12.0        | 35.0 MB   | ###                   |  15% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | #4                    |   7% [A[A
+mysql-5.7.24         | 60.0 MB   | #2                    |   6% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #3                    |   7% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | 5                     |   3% 
+
+
+python-3.12.0        | 35.0 MB   | ###2                  |  15% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | #5                    |   7% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #4                    |   7% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | #3                    |   6% [Amkl-2023.1.0         | 171.5 MB  | 5                     |   3% 
+
+
+python-3.12.0        | 35.0 MB   | ###3                  |  16% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | #5                    |   8% [A[A
+mysql-5.7.24         | 60.0 MB   | #3                    |   7% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #5                    |   7% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | 5                     |   3% 
+
+
+python-3.12.0        | 35.0 MB   | ###5                  |  17% [A[A[A
+mysql-5.7.24         | 60.0 MB   | #4                    |   7% [A
+
+qt-main-5.15.2       | 53.7 MB   | #6                    |   8% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #6                    |   8% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | 5                     |   3% 
+
+
+python-3.12.0        | 35.0 MB   | ###6                  |  17% [A[A[A
+mysql-5.7.24         | 60.0 MB   | #4                    |   7% [A
+
+qt-main-5.15.2       | 53.7 MB   | #7                    |   8% [A[Amkl-2023.1.0         | 171.5 MB  | 6                     |   3% 
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #7                    |   8% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | ###8                  |  18% [A[A[A
+mysql-5.7.24         | 60.0 MB   | #5                    |   7% [A
+
+qt-main-5.15.2       | 53.7 MB   | #7                    |   8% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #8                    |   9% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | 6                     |   3% 
+
+
+python-3.12.0        | 35.0 MB   | ###9                  |  19% [A[A[A
+mysql-5.7.24         | 60.0 MB   | #5                    |   8% [A
+
+qt-main-5.15.2       | 53.7 MB   | #8                    |   9% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #9                    |   9% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | 6                     |   3% 
+
+
+python-3.12.0        | 35.0 MB   | ####1                 |  20% [A[A[A
+mysql-5.7.24         | 60.0 MB   | #6                    |   8% [A
+
+qt-main-5.15.2       | 53.7 MB   | #9                    |   9% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##                    |  10% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | 7                     |   3% 
+
+
+python-3.12.0        | 35.0 MB   | ####2                 |  20% [A[A[A
+mysql-5.7.24         | 60.0 MB   | #7                    |   8% [A
+
+qt-main-5.15.2       | 53.7 MB   | ##                    |  10% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##1                   |  10% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | 7                     |   4% 
+
+
+python-3.12.0        | 35.0 MB   | ####4                 |  21% [A[A[A
+mysql-5.7.24         | 60.0 MB   | #8                    |   9% [A
+
+qt-main-5.15.2       | 53.7 MB   | ##1                   |  10% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##2                   |  11% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | 7                     |   4% 
+
+
+python-3.12.0        | 35.0 MB   | ####6                 |  22% [A[A[A
+mysql-5.7.24         | 60.0 MB   | #9                    |   9% [A
+
+qt-main-5.15.2       | 53.7 MB   | ##2                   |  11% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##3                   |  11% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | 8                     |   4% 
+
+
+python-3.12.0        | 35.0 MB   | #####                 |  24% [A[A[A
+mysql-5.7.24         | 60.0 MB   | #9                    |   9% [A
+
+qt-main-5.15.2       | 53.7 MB   | ##3                   |  11% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##4                   |  12% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | 8                     |   4% 
+
+
+python-3.12.0        | 35.0 MB   | #####2                |  25% [A[A[A
+mysql-5.7.24         | 60.0 MB   | ##                    |  10% [A
+
+qt-main-5.15.2       | 53.7 MB   | ##3                   |  11% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##5                   |  12% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | 9                     |   4% 
+mysql-5.7.24         | 60.0 MB   | ##1                   |  10% [A
+
+
+python-3.12.0        | 35.0 MB   | #####4                |  26% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ##4                   |  12% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##6                   |  13% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | 9                     |   5% 
+
+
+python-3.12.0        | 35.0 MB   | #####6                |  27% [A[A[A
+mysql-5.7.24         | 60.0 MB   | ##2                   |  11% [A
+
+qt-main-5.15.2       | 53.7 MB   | ##5                   |  12% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##7                   |  13% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | 9                     |   5% 
+mysql-5.7.24         | 60.0 MB   | ##3                   |  11% [A
+
+qt-main-5.15.2       | 53.7 MB   | ##6                   |  13% [A[A
+
+
+python-3.12.0        | 35.0 MB   | #####9                |  28% [A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##8                   |  14% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | #                     |   5% 
+mysql-5.7.24         | 60.0 MB   | ##4                   |  12% [A
+
+qt-main-5.15.2       | 53.7 MB   | ##7                   |  13% [A[A
+
+
+python-3.12.0        | 35.0 MB   | ######                |  29% [A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###                   |  14% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | #                     |   5% 
+mysql-5.7.24         | 60.0 MB   | ##5                   |  12% [A
+
+qt-main-5.15.2       | 53.7 MB   | ##8                   |  14% [A[A
+
+
+python-3.12.0        | 35.0 MB   | ######5               |  31% [A[A[Amkl-2023.1.0         | 171.5 MB  | #1                    |   5% 
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###1                  |  15% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ##6                   |  13% [A
+
+qt-main-5.15.2       | 53.7 MB   | ##9                   |  14% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###2                  |  15% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | #1                    |   6% 
+
+
+python-3.12.0        | 35.0 MB   | ######8               |  32% [A[A[A
+mysql-5.7.24         | 60.0 MB   | ##7                   |  13% [A
+
+qt-main-5.15.2       | 53.7 MB   | ###                   |  15% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###3                  |  16% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | #2                    |   6% 
+
+
+python-3.12.0        | 35.0 MB   | #######               |  34% [A[A[A
+mysql-5.7.24         | 60.0 MB   | ##8                   |  14% [A
+
+qt-main-5.15.2       | 53.7 MB   | ###1                  |  15% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###4                  |  16% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | #2                    |   6% 
+
+
+python-3.12.0        | 35.0 MB   | #######2              |  35% [A[A[A
+mysql-5.7.24         | 60.0 MB   | ##9                   |  14% [A
+
+qt-main-5.15.2       | 53.7 MB   | ###2                  |  15% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###5                  |  17% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | #3                    |   6% 
+mysql-5.7.24         | 60.0 MB   | ###                   |  14% [A
+
+qt-main-5.15.2       | 53.7 MB   | ###3                  |  16% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###6                  |  17% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | #######4              |  35% [A[A[Amkl-2023.1.0         | 171.5 MB  | #3                    |   6% 
+mysql-5.7.24         | 60.0 MB   | ###1                  |  15% [A
+
+qt-main-5.15.2       | 53.7 MB   | ###4                  |  16% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###8                  |  18% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | #######6              |  37% [A[A[Amkl-2023.1.0         | 171.5 MB  | #4                    |   7% 
+mysql-5.7.24         | 60.0 MB   | ###2                  |  16% [A
+
+
+python-3.12.0        | 35.0 MB   | ########1             |  39% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ###5                  |  17% [A[Amkl-2023.1.0         | 171.5 MB  | #4                    |   7% 
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###9                  |  19% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ###6                  |  17% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ####                  |  19% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ###3                  |  16% [Amkl-2023.1.0         | 171.5 MB  | #5                    |   7% 
+
+
+python-3.12.0        | 35.0 MB   | ########3             |  40% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ###7                  |  18% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ####1                 |  20% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | #5                    |   7% 
+mysql-5.7.24         | 60.0 MB   | ###4                  |  16% [A
+
+
+python-3.12.0        | 35.0 MB   | ########5             |  41% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ###8                  |  18% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ####2                 |  20% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ###5                  |  17% [Amkl-2023.1.0         | 171.5 MB  | #5                    |   8% 
+
+
+python-3.12.0        | 35.0 MB   | ########7             |  42% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ###9                  |  19% [A[A
+mysql-5.7.24         | 60.0 MB   | ###6                  |  17% [Amkl-2023.1.0         | 171.5 MB  | #6                    |   8% 
+
+
+python-3.12.0        | 35.0 MB   | ########9             |  43% [A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ####3                 |  21% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | #6                    |   8% 
+
+qt-main-5.15.2       | 53.7 MB   | ####                  |  19% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ####4                 |  21% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | #########1            |  44% [A[A[A
+mysql-5.7.24         | 60.0 MB   | ###7                  |  18% [Amkl-2023.1.0         | 171.5 MB  | #7                    |   8% 
+
+qt-main-5.15.2       | 53.7 MB   | ####1                 |  20% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ####5                 |  22% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | #########3            |  44% [A[A[A
+mysql-5.7.24         | 60.0 MB   | ###8                  |  18% [Amkl-2023.1.0         | 171.5 MB  | #7                    |   8% 
+
+qt-main-5.15.2       | 53.7 MB   | ####2                 |  20% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ####7                 |  23% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ###9                  |  19% [A
+
+
+python-3.12.0        | 35.0 MB   | #########4            |  45% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ####3                 |  21% [A[Amkl-2023.1.0         | 171.5 MB  | #7                    |   8% 
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ####8                 |  23% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ####                  |  19% [A
+
+
+python-3.12.0        | 35.0 MB   | #########6            |  46% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ####4                 |  21% [A[Amkl-2023.1.0         | 171.5 MB  | #8                    |   9% 
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #####                 |  24% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ####                  |  19% [A
+
+
+python-3.12.0        | 35.0 MB   | #########8            |  47% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ####5                 |  22% [A[Amkl-2023.1.0         | 171.5 MB  | #8                    |   9% 
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #####2                |  25% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ####2                 |  20% [A
+
+
+python-3.12.0        | 35.0 MB   | ##########            |  48% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ####6                 |  22% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #####4                |  26% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | #9                    |   9% 
+mysql-5.7.24         | 60.0 MB   | ####3                 |  21% [A
+
+
+python-3.12.0        | 35.0 MB   | ##########4           |  50% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ####7                 |  23% [A[Amkl-2023.1.0         | 171.5 MB  | #9                    |  10% 
+
+
+python-3.12.0        | 35.0 MB   | ##########9           |  52% [A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #####6                |  27% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ####4                 |  21% [A
+
+qt-main-5.15.2       | 53.7 MB   | ####8                 |  23% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #####8                |  28% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ####5                 |  21% [Amkl-2023.1.0         | 171.5 MB  | ##                    |  10% 
+
+
+python-3.12.0        | 35.0 MB   | ###########1          |  53% [A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #####9                |  28% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ####9                 |  24% [A[A
+mysql-5.7.24         | 60.0 MB   | ####6                 |  22% [A
+
+
+python-3.12.0        | 35.0 MB   | ###########4          |  54% [A[A[Amkl-2023.1.0         | 171.5 MB  | ##                    |  10% 
+
+qt-main-5.15.2       | 53.7 MB   | #####1                |  24% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ######1               |  29% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ####6                 |  22% [Amkl-2023.1.0         | 171.5 MB  | ##1                   |  10% 
+
+qt-main-5.15.2       | 53.7 MB   | #####2                |  25% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ######2               |  30% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | ###########6          |  56% [A[A[A
+mysql-5.7.24         | 60.0 MB   | ####7                 |  23% [Amkl-2023.1.0         | 171.5 MB  | ##1                   |  10% 
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ######4               |  31% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | ###########9          |  57% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | #####3                |  25% [A[Amkl-2023.1.0         | 171.5 MB  | ##2                   |  11% 
+
+qt-main-5.15.2       | 53.7 MB   | #####3                |  26% [A[A
+mysql-5.7.24         | 60.0 MB   | ####8                 |  23% [A
+
+
+python-3.12.0        | 35.0 MB   | ############2         |  58% [A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ######6               |  32% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | ##2                   |  11% 
+
+qt-main-5.15.2       | 53.7 MB   | #####4                |  26% [A[A
+mysql-5.7.24         | 60.0 MB   | ####9                 |  24% [A
+
+
+python-3.12.0        | 35.0 MB   | ############4         |  59% [A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ######8               |  32% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | #####5                |  27% [A[A
+mysql-5.7.24         | 60.0 MB   | #####                 |  24% [Amkl-2023.1.0         | 171.5 MB  | ##3                   |  11% 
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ######9               |  33% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | ############6         |  60% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | #####7                |  28% [A[A
+mysql-5.7.24         | 60.0 MB   | #####1                |  25% [Amkl-2023.1.0         | 171.5 MB  | ##3                   |  11% 
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #######3              |  35% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | #############1        |  63% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | #####9                |  28% [A[Amkl-2023.1.0         | 171.5 MB  | ##4                   |  12% 
+mysql-5.7.24         | 60.0 MB   | #####2                |  25% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #######5              |  36% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | #############4        |  64% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ######                |  29% [A[A
+mysql-5.7.24         | 60.0 MB   | #####3                |  26% [Amkl-2023.1.0         | 171.5 MB  | ##4                   |  12% 
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #######7              |  37% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | #############7        |  65% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ######1               |  29% [A[A
+mysql-5.7.24         | 60.0 MB   | #####4                |  26% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #######9              |  38% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | ##5                   |  12% 
+
+
+python-3.12.0        | 35.0 MB   | #############9        |  66% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ######3               |  30% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ########1             |  39% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | ##6                   |  12% 
+
+
+python-3.12.0        | 35.0 MB   | ##############2       |  68% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ######5               |  31% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ########4             |  40% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | ##6                   |  13% 
+mysql-5.7.24         | 60.0 MB   | #####5                |  26% [A
+
+qt-main-5.15.2       | 53.7 MB   | ######7               |  32% [A[A
+
+
+python-3.12.0        | 35.0 MB   | ##############4       |  69% [A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ########6             |  41% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ######8               |  33% [A[A
+mysql-5.7.24         | 60.0 MB   | #####6                |  27% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ########9             |  43% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | ##############7       |  70% [A[A[A
+mysql-5.7.24         | 60.0 MB   | #####7                |  27% [A
+
+qt-main-5.15.2       | 53.7 MB   | #######               |  34% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #########1            |  44% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | ##############9       |  71% [A[A[Amkl-2023.1.0         | 171.5 MB  | ##7                   |  13% 
+mysql-5.7.24         | 60.0 MB   | #####8                |  28% [A
+
+qt-main-5.15.2       | 53.7 MB   | #######2              |  34% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #########3            |  45% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | ###############2      |  73% [A[A[A
+mysql-5.7.24         | 60.0 MB   | #####8                |  28% [Amkl-2023.1.0         | 171.5 MB  | ##7                   |  13% 
+
+qt-main-5.15.2       | 53.7 MB   | #######4              |  36% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #########6            |  46% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | ###############6      |  74% [A[A[Amkl-2023.1.0         | 171.5 MB  | ##8                   |  13% 
+mysql-5.7.24         | 60.0 MB   | #####9                |  28% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #########9            |  47% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | ###############9      |  76% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | #######6              |  36% [A[A
+mysql-5.7.24         | 60.0 MB   | ######                |  29% [Amkl-2023.1.0         | 171.5 MB  | ##8                   |  14% 
+
+
+python-3.12.0        | 35.0 MB   | ################1     |  77% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | #######8              |  37% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##########1           |  48% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ######1               |  29% [Amkl-2023.1.0         | 171.5 MB  | ##8                   |  14% 
+
+
+python-3.12.0        | 35.0 MB   | ################4     |  78% [A[A[A
+mysql-5.7.24         | 60.0 MB   | ######2               |  30% [A
+
+qt-main-5.15.2       | 53.7 MB   | #######9              |  38% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##########3           |  49% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | ##9                   |  14% 
+
+
+python-3.12.0        | 35.0 MB   | ################7     |  80% [A[A[A
+mysql-5.7.24         | 60.0 MB   | ######3               |  30% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##########6           |  51% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ########1             |  39% [A[Amkl-2023.1.0         | 171.5 MB  | ##9                   |  14% 
+
+
+python-3.12.0        | 35.0 MB   | #################     |  81% [A[A[A
+mysql-5.7.24         | 60.0 MB   | ######4               |  31% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##########9           |  52% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ########3             |  40% [A[Amkl-2023.1.0         | 171.5 MB  | ###                   |  14% 
+
+
+python-3.12.0        | 35.0 MB   | #################2    |  82% [A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###########1          |  53% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ######4               |  31% [Amkl-2023.1.0         | 171.5 MB  | ###                   |  15% 
+
+qt-main-5.15.2       | 53.7 MB   | ########4             |  40% [A[A
+mysql-5.7.24         | 60.0 MB   | ######5               |  31% [A
+
+
+python-3.12.0        | 35.0 MB   | #################5    |  84% [A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###########3          |  54% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###1                  |  15% 
+
+qt-main-5.15.2       | 53.7 MB   | ########6             |  41% [A[A
+mysql-5.7.24         | 60.0 MB   | ######6               |  32% [A
+
+
+python-3.12.0        | 35.0 MB   | #################7    |  85% [A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###########6          |  55% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###1                  |  15% 
+
+qt-main-5.15.2       | 53.7 MB   | ########8             |  42% [A[A
+mysql-5.7.24         | 60.0 MB   | ######7               |  32% [A
+
+
+python-3.12.0        | 35.0 MB   | ##################2   |  87% [A[A[Amkl-2023.1.0         | 171.5 MB  | ###2                  |  15% 
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###########8          |  56% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ######8               |  33% [A
+
+qt-main-5.15.2       | 53.7 MB   | #########             |  43% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ############          |  58% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###2                  |  16% 
+
+
+python-3.12.0        | 35.0 MB   | ##################5   |  88% [A[A[A
+mysql-5.7.24         | 60.0 MB   | ######9               |  33% [A
+
+qt-main-5.15.2       | 53.7 MB   | #########1            |  44% [A[Amkl-2023.1.0         | 171.5 MB  | ###3                  |  16% 
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ############3         |  59% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | ##################8   |  90% [A[A[A
+mysql-5.7.24         | 60.0 MB   | #######               |  34% [A
+
+qt-main-5.15.2       | 53.7 MB   | #########3            |  45% [A[Amkl-2023.1.0         | 171.5 MB  | ###3                  |  16% 
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ############5         |  60% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | ###################   |  91% [A[A[A
+mysql-5.7.24         | 60.0 MB   | #######1              |  34% [A
+
+qt-main-5.15.2       | 53.7 MB   | #########6            |  46% [A[Amkl-2023.1.0         | 171.5 MB  | ###4                  |  16% 
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ############7         |  61% [A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | ###################5  |  93% [A[A[A
+mysql-5.7.24         | 60.0 MB   | #######3              |  35% [A
+
+qt-main-5.15.2       | 53.7 MB   | #########8            |  47% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #############         |  62% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###4                  |  17% 
+
+
+python-3.12.0        | 35.0 MB   | ###################8  |  94% [A[A[A
+mysql-5.7.24         | 60.0 MB   | #######4              |  35% [A
+
+qt-main-5.15.2       | 53.7 MB   | #########9            |  48% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #############2        |  63% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###5                  |  17% 
+
+
+python-3.12.0        | 35.0 MB   | ####################1 |  96% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ##########1           |  48% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #############4        |  64% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | #######5              |  36% [Amkl-2023.1.0         | 171.5 MB  | ###5                  |  17% 
+
+
+python-3.12.0        | 35.0 MB   | ####################3 |  97% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ##########3           |  49% [A[A
+mysql-5.7.24         | 60.0 MB   | #######6              |  36% [Amkl-2023.1.0         | 171.5 MB  | ###6                  |  17% 
+
+
+python-3.12.0        | 35.0 MB   | ####################6 |  98% [A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ##########5           |  50% [A[A
+mysql-5.7.24         | 60.0 MB   | #######8              |  37% [Amkl-2023.1.0         | 171.5 MB  | ###6                  |  18% 
+
+qt-main-5.15.2       | 53.7 MB   | ##########7           |  51% [A[Amkl-2023.1.0         | 171.5 MB  | ###7                  |  18% 
+mysql-5.7.24         | 60.0 MB   | #######9              |  38% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #############6        |  65% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ##########9           |  52% [A[Amkl-2023.1.0         | 171.5 MB  | ###8                  |  18% 
+mysql-5.7.24         | 60.0 MB   | ########1             |  39% [A
+
+qt-main-5.15.2       | 53.7 MB   | ###########2          |  54% [A[Amkl-2023.1.0         | 171.5 MB  | ###8                  |  19% 
+mysql-5.7.24         | 60.0 MB   | ########3             |  40% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #############7        |  66% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###9                  |  19% 
+
+qt-main-5.15.2       | 53.7 MB   | ###########4          |  55% [A[A
+mysql-5.7.24         | 60.0 MB   | ########5             |  41% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #############9        |  66% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | ####                  |  19% 
+
+qt-main-5.15.2       | 53.7 MB   | ###########6          |  56% [A[A
+mysql-5.7.24         | 60.0 MB   | ########7             |  42% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##############        |  67% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ###########8          |  56% [A[Amkl-2023.1.0         | 171.5 MB  | ####1                 |  20% 
+mysql-5.7.24         | 60.0 MB   | ########8             |  42% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##############2       |  68% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | ####1                 |  20% 
+
+qt-main-5.15.2       | 53.7 MB   | ############          |  57% [A[A
+mysql-5.7.24         | 60.0 MB   | #########             |  43% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##############3       |  68% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ############2         |  58% [A[Amkl-2023.1.0         | 171.5 MB  | ####2                 |  20% 
+mysql-5.7.24         | 60.0 MB   | #########2            |  44% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##############5       |  69% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ############4         |  59% [A[Amkl-2023.1.0         | 171.5 MB  | ####3                 |  21% 
+mysql-5.7.24         | 60.0 MB   | #########3            |  45% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##############7       |  70% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ############6         |  60% [A[Amkl-2023.1.0         | 171.5 MB  | ####3                 |  21% 
+mysql-5.7.24         | 60.0 MB   | #########5            |  45% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##############8       |  71% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ############8         |  61% [A[Amkl-2023.1.0         | 171.5 MB  | ####4                 |  21% 
+mysql-5.7.24         | 60.0 MB   | #########6            |  46% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###############       |  72% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | #############         |  62% [A[Amkl-2023.1.0         | 171.5 MB  | ####5                 |  22% 
+mysql-5.7.24         | 60.0 MB   | #########8            |  47% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###############1      |  72% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | #############2        |  63% [A[Amkl-2023.1.0         | 171.5 MB  | ####6                 |  22% 
+mysql-5.7.24         | 60.0 MB   | ##########            |  48% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###############3      |  73% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | #############4        |  64% [A[Amkl-2023.1.0         | 171.5 MB  | ####6                 |  22% 
+mysql-5.7.24         | 60.0 MB   | ##########1           |  49% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###############4      |  74% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | #############5        |  65% [A[Amkl-2023.1.0         | 171.5 MB  | ####7                 |  23% 
+mysql-5.7.24         | 60.0 MB   | ##########3           |  49% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###############6      |  74% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | #############7        |  66% [A[Amkl-2023.1.0         | 171.5 MB  | ####8                 |  23% 
+mysql-5.7.24         | 60.0 MB   | ##########5           |  50% [A
+
+qt-main-5.15.2       | 53.7 MB   | #############9        |  66% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###############8      |  75% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | ####9                 |  23% 
+mysql-5.7.24         | 60.0 MB   | ##########7           |  51% [A
+
+qt-main-5.15.2       | 53.7 MB   | ##############1       |  67% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###############9      |  76% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | ####9                 |  24% 
+mysql-5.7.24         | 60.0 MB   | ##########8           |  52% [A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ################1     |  77% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ##############3       |  68% [A[A
+mysql-5.7.24         | 60.0 MB   | ###########           |  53% [Amkl-2023.1.0         | 171.5 MB  | #####                 |  24% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   |                       |   0% [A[A[A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ################3     |  78% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ##############5       |  69% [A[A
+mysql-5.7.24         | 60.0 MB   | ###########2          |  54% [Amkl-2023.1.0         | 171.5 MB  | #####                 |  24% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | 5                     |   3% [A[A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ##############7       |  70% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ################5     |  79% [A[A[A[Amkl-2023.1.0         | 171.5 MB  | #####1                |  25% 
+mysql-5.7.24         | 60.0 MB   | ###########4          |  54% [A
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | #                     |   5% [A[A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ##############9       |  71% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ################6     |  79% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ###########6          |  55% [Amkl-2023.1.0         | 171.5 MB  | #####2                |  25% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | #7                    |   8% [A[A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ###############1      |  72% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ################8     |  80% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ###########7          |  56% [Amkl-2023.1.0         | 171.5 MB  | #####3                |  25% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ##2                   |  11% [A[A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ###############3      |  73% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #################     |  81% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ###########9          |  57% [Amkl-2023.1.0         | 171.5 MB  | #####4                |  26% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ##7                   |  13% [A[A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ###############5      |  74% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #################2    |  82% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ############          |  58% [Amkl-2023.1.0         | 171.5 MB  | #####4                |  26% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ###2                  |  16% [A[A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ###############6      |  75% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #################3    |  83% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ############2         |  58% [Amkl-2023.1.0         | 171.5 MB  | #####5                |  27% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ###7                  |  18% [A[A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ###############8      |  75% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #################5    |  84% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ############4         |  59% [Amkl-2023.1.0         | 171.5 MB  | #####6                |  27% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ####2                 |  20% [A[A[A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #################7    |  84% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ################      |  76% [A[A
+mysql-5.7.24         | 60.0 MB   | ############5         |  60% [A
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ####7                 |  22% [A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | #####7                |  27% 
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | #################8    |  85% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ################1     |  77% [A[A
+mysql-5.7.24         | 60.0 MB   | ############7         |  61% [A
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | #####3                |  26% [A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | #####8                |  28% 
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##################1   |  86% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ################3     |  78% [A[A
+mysql-5.7.24         | 60.0 MB   | #############         |  62% [A
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | #####8                |  28% [A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | #####8                |  28% 
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##################2   |  87% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ################5     |  79% [A[A
+mysql-5.7.24         | 60.0 MB   | #############1        |  63% [A
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ######3               |  30% [A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | #####9                |  28% 
+
+qt-main-5.15.2       | 53.7 MB   | ################7     |  80% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##################4   |  88% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | #############3        |  64% [Amkl-2023.1.0         | 171.5 MB  | ######                |  29% 
+
+qt-main-5.15.2       | 53.7 MB   | ################8     |  80% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##################6   |  89% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | #############5        |  64% [Amkl-2023.1.0         | 171.5 MB  | ######1               |  29% 
+
+qt-main-5.15.2       | 53.7 MB   | #################     |  81% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##################8   |  90% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | #############7        |  65% [A
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ######8               |  32% [A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ######1               |  29% 
+
+qt-main-5.15.2       | 53.7 MB   | #################1    |  82% [A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##################9   |  90% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | #############8        |  66% [A
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | #######2              |  35% [A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ######2               |  30% 
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###################1  |  91% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | #################3    |  83% [A[A
+mysql-5.7.24         | 60.0 MB   | ##############        |  67% [A
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | #######7              |  37% [A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ######2               |  30% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ########1             |  39% [A[A[A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###################3  |  92% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ##############2       |  68% [A
+
+qt-main-5.15.2       | 53.7 MB   | #################4    |  83% [A[Amkl-2023.1.0         | 171.5 MB  | ######3               |  30% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ########5             |  41% [A[A[A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###################5  |  93% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ##############3       |  69% [A
+
+qt-main-5.15.2       | 53.7 MB   | #################6    |  84% [A[Amkl-2023.1.0         | 171.5 MB  | ######3               |  30% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | #########2            |  44% [A[A[A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###################6  |  94% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ##############5       |  69% [A
+
+qt-main-5.15.2       | 53.7 MB   | #################7    |  85% [A[Amkl-2023.1.0         | 171.5 MB  | ######4               |  31% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | #########8            |  47% [A[A[A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ###################8  |  95% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ##############7       |  70% [A
+
+qt-main-5.15.2       | 53.7 MB   | #################9    |  85% [A[Amkl-2023.1.0         | 171.5 MB  | ######5               |  31% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ##########5           |  50% [A[A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ##############9       |  71% [Amkl-2023.1.0         | 171.5 MB  | ######5               |  31% 
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ####################  |  95% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ##################    |  86% [A[A
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ###########           |  53% [A[A[A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ####################1 |  96% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ###############       |  72% [Amkl-2023.1.0         | 171.5 MB  | ######6               |  32% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ###########8          |  56% [A[A[A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ####################3 |  97% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ###############2      |  73% [Amkl-2023.1.0         | 171.5 MB  | ######6               |  32% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ############5         |  60% [A[A[A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ####################5 |  98% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ###############5      |  74% [Amkl-2023.1.0         | 171.5 MB  | ######7               |  32% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | #############1        |  63% [A[A[A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ####################6 |  98% [A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ##################1   |  87% [A[A
+mysql-5.7.24         | 60.0 MB   | ###############6      |  75% [Amkl-2023.1.0         | 171.5 MB  | ######8               |  32% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | #############7        |  66% [A[A[A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ####################8 |  99% [A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ###############8      |  75% [A
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ##############2       |  68% [A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ######8               |  33% 
+
+qt-main-5.15.2       | 53.7 MB   | ##################2   |  87% [A[A
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ##############7       |  70% [A[A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ###############9      |  76% [Amkl-2023.1.0         | 171.5 MB  | ######9               |  33% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ###############2      |  73% [A[A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ##################3   |  87% [A[A
+mysql-5.7.24         | 60.0 MB   | ################      |  77% [Amkl-2023.1.0         | 171.5 MB  | ######9               |  33% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ###############8      |  75% [A[A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ##################4   |  88% [A[A
+mysql-5.7.24         | 60.0 MB   | ################2     |  77% [Amkl-2023.1.0         | 171.5 MB  | #######               |  33% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ################5     |  79% [A[A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ################4     |  78% [Amkl-2023.1.0         | 171.5 MB  | #######               |  34% 
+
+qt-main-5.15.2       | 53.7 MB   | ##################4   |  88% [A[A
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | #################3    |  83% [A[A[A[A[A
+mysql-5.7.24         | 60.0 MB   | ################5     |  79% [Amkl-2023.1.0         | 171.5 MB  | #######1              |  34% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | #################9    |  86% [A[A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ##################5   |  88% [A[A
+mysql-5.7.24         | 60.0 MB   | ################7     |  80% [Amkl-2023.1.0         | 171.5 MB  | #######2              |  34% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ##################5   |  89% [A[A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ##################5   |  89% [A[A
+mysql-5.7.24         | 60.0 MB   | ################8     |  80% [Amkl-2023.1.0         | 171.5 MB  | #######2              |  35% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ###################2  |  92% [A[A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ##################6   |  89% [A[A
+mysql-5.7.24         | 60.0 MB   | #################     |  81% [Amkl-2023.1.0         | 171.5 MB  | #######3              |  35% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ###################9  |  95% [A[A[A[A[A
+mysql-5.7.24         | 60.0 MB   | #################1    |  82% [A
+
+qt-main-5.15.2       | 53.7 MB   | ##################7   |  89% [A[Amkl-2023.1.0         | 171.5 MB  | #######3              |  35% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ####################6 |  98% [A[A[A[A[A
+mysql-5.7.24         | 60.0 MB   | #################3    |  83% [A
+
+qt-main-5.15.2       | 53.7 MB   | ##################7   |  89% [A[Amkl-2023.1.0         | 171.5 MB  | #######4              |  35% 
+mysql-5.7.24         | 60.0 MB   | #################5    |  84% [A
+
+qt-main-5.15.2       | 53.7 MB   | ##################8   |  90% [A[Amkl-2023.1.0         | 171.5 MB  | #######4              |  36% 
+mysql-5.7.24         | 60.0 MB   | #################7    |  84% [A
+
+qt-main-5.15.2       | 53.7 MB   | ##################9   |  90% [A[Amkl-2023.1.0         | 171.5 MB  | #######5              |  36% 
+mysql-5.7.24         | 60.0 MB   | #################9    |  85% [A
+
+qt-main-5.15.2       | 53.7 MB   | ###################   |  91% [A[Amkl-2023.1.0         | 171.5 MB  | #######6              |  36% 
+mysql-5.7.24         | 60.0 MB   | ##################    |  86% [A
+
+qt-main-5.15.2       | 53.7 MB   | ###################1  |  91% [A[Amkl-2023.1.0         | 171.5 MB  | #######6              |  37% 
+mysql-5.7.24         | 60.0 MB   | ##################2   |  87% [A
+
+qt-main-5.15.2       | 53.7 MB   | ###################1  |  91% [A[Amkl-2023.1.0         | 171.5 MB  | #######7              |  37% 
+mysql-5.7.24         | 60.0 MB   | ##################4   |  88% [A
+
+qt-main-5.15.2       | 53.7 MB   | ###################2  |  92% [A[Amkl-2023.1.0         | 171.5 MB  | #######8              |  37% 
+mysql-5.7.24         | 60.0 MB   | ##################6   |  89% [A
+
+qt-main-5.15.2       | 53.7 MB   | ###################3  |  92% [A[Amkl-2023.1.0         | 171.5 MB  | #######8              |  38% 
+mysql-5.7.24         | 60.0 MB   | ##################7   |  89% [A
+
+qt-main-5.15.2       | 53.7 MB   | ###################4  |  93% [A[Amkl-2023.1.0         | 171.5 MB  | #######9              |  38% 
+mysql-5.7.24         | 60.0 MB   | ##################9   |  90% [A
+
+qt-main-5.15.2       | 53.7 MB   | ###################5  |  93% [A[Amkl-2023.1.0         | 171.5 MB  | ########              |  38% 
+mysql-5.7.24         | 60.0 MB   | ###################1  |  91% [A
+
+qt-main-5.15.2       | 53.7 MB   | ###################6  |  93% [A[Amkl-2023.1.0         | 171.5 MB  | ########              |  38% 
+mysql-5.7.24         | 60.0 MB   | ###################3  |  92% [A
+
+qt-main-5.15.2       | 53.7 MB   | ###################7  |  94% [A[Amkl-2023.1.0         | 171.5 MB  | ########1             |  39% 
+mysql-5.7.24         | 60.0 MB   | ###################5  |  93% [A
+
+qt-main-5.15.2       | 53.7 MB   | ###################8  |  95% [A[Amkl-2023.1.0         | 171.5 MB  | ########2             |  39% 
+mysql-5.7.24         | 60.0 MB   | ###################8  |  94% [A
+
+qt-main-5.15.2       | 53.7 MB   | ####################  |  95% [A[Amkl-2023.1.0         | 171.5 MB  | ########2             |  40% 
+mysql-5.7.24         | 60.0 MB   | ####################  |  96% [A
+
+qt-main-5.15.2       | 53.7 MB   | ####################2 |  96% [A[Amkl-2023.1.0         | 171.5 MB  | ########4             |  40% 
+mysql-5.7.24         | 60.0 MB   | ####################4 |  97% [A
+
+qt-main-5.15.2       | 53.7 MB   | ####################3 |  97% [A[Amkl-2023.1.0         | 171.5 MB  | ########5             |  41% 
+mysql-5.7.24         | 60.0 MB   | ####################8 |  99% [A
+
+qt-main-5.15.2       | 53.7 MB   | ####################5 |  98% [A[Amkl-2023.1.0         | 171.5 MB  | ########6             |  41% 
+
+qt-main-5.15.2       | 53.7 MB   | ####################8 |  99% [A[Amkl-2023.1.0         | 171.5 MB  | ########7             |  42% mkl-2023.1.0         | 171.5 MB  | ########9             |  42% mkl-2023.1.0         | 171.5 MB  | #########             |  43% mkl-2023.1.0         | 171.5 MB  | #########1            |  44% mkl-2023.1.0         | 171.5 MB  | #########2            |  44% mkl-2023.1.0         | 171.5 MB  | #########4            |  45% 
+
+
+
+
+
+libclang13-14.0.6    | 9.8 MB    |                       |   0% [A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | #########5            |  45% 
+
+
+
+
+
+libclang13-14.0.6    | 9.8 MB    | #5                    |   8% [A[A[A[A[A[A
+
+
+
+
+
+libclang13-14.0.6    | 9.8 MB    | ###4                  |  17% [A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | #########6            |  46% 
+
+
+
+
+
+libclang13-14.0.6    | 9.8 MB    | #####2                |  25% [A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | #########7            |  46% mkl-2023.1.0         | 171.5 MB  | #########8            |  47% mkl-2023.1.0         | 171.5 MB  | #########9            |  47% mkl-2023.1.0         | 171.5 MB  | ##########            |  48% 
+
+
+
+
+
+libclang13-14.0.6    | 9.8 MB    | ######9               |  33% [A[A[A[A[A[A
+
+
+
+
+
+libclang13-14.0.6    | 9.8 MB    | ########7             |  42% [A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ##########1           |  48% 
+
+
+
+
+
+libclang13-14.0.6    | 9.8 MB    | ##########6           |  51% [A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ##########2           |  49% 
+
+
+
+
+
+libclang13-14.0.6    | 9.8 MB    | ############2         |  58% [A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ##########3           |  49% 
+
+
+
+
+
+libclang13-14.0.6    | 9.8 MB    | ##############        |  67% [A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ##########4           |  50% 
+
+
+
+
+
+libclang13-14.0.6    | 9.8 MB    | ###############7      |  75% [A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ##########5           |  50% 
+
+
+
+
+
+libclang13-14.0.6    | 9.8 MB    | #################5    |  84% [A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ##########6           |  51% 
+
+
+
+
+
+libclang13-14.0.6    | 9.8 MB    | ###################2  |  92% [A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ##########7           |  51% 
+
+
+
+
+
+libclang13-14.0.6    | 9.8 MB    | ####################9 | 100% [A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ##########8           |  51% 
+
+
+
+
+
+
+numpy-base-1.26.2    | 7.7 MB    |                       |   0% [A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ##########8           |  52% 
+
+
+
+
+
+
+numpy-base-1.26.2    | 7.7 MB    | #4                    |   7% [A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ##########9           |  52% 
+
+
+
+
+
+
+numpy-base-1.26.2    | 7.7 MB    | ##7                   |  13% [A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###########           |  53% 
+
+
+
+
+
+
+numpy-base-1.26.2    | 7.7 MB    | ###9                  |  19% [A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###########1          |  53% 
+
+
+
+
+
+
+numpy-base-1.26.2    | 7.7 MB    | #####3                |  26% [A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###########2          |  53% 
+
+
+
+
+
+
+numpy-base-1.26.2    | 7.7 MB    | ######7               |  32% [A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###########3          |  54% 
+
+
+
+
+
+
+numpy-base-1.26.2    | 7.7 MB    | ########7             |  42% [A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###########3          |  54% 
+
+
+
+
+
+
+numpy-base-1.26.2    | 7.7 MB    | ##########4           |  50% [A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###########4          |  55% 
+
+
+
+
+
+
+numpy-base-1.26.2    | 7.7 MB    | ############5         |  60% [A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###########5          |  55% 
+
+
+
+
+
+
+numpy-base-1.26.2    | 7.7 MB    | ##############4       |  69% [A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###########6          |  55% 
+
+
+
+
+
+
+numpy-base-1.26.2    | 7.7 MB    | ################5     |  79% [A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###########7          |  56% 
+
+
+
+
+
+
+numpy-base-1.26.2    | 7.7 MB    | ##################9   |  90% [A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###########8          |  56% mkl-2023.1.0         | 171.5 MB  | ###########8          |  57% mkl-2023.1.0         | 171.5 MB  | ###########9          |  57% 
+
+
+
+
+
+
+
+matplotlib-base-3.8. | 6.9 MB    |                       |   0% [A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ############          |  58% 
+
+
+
+
+
+
+
+matplotlib-base-3.8. | 6.9 MB    | ##4                   |  12% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+matplotlib-base-3.8. | 6.9 MB    | #####2                |  25% [A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ############1         |  58% 
+
+
+
+
+
+
+
+matplotlib-base-3.8. | 6.9 MB    | #######8              |  37% [A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ############2         |  58% 
+
+
+
+
+
+
+
+matplotlib-base-3.8. | 6.9 MB    | ##########4           |  50% [A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ############3         |  59% mkl-2023.1.0         | 171.5 MB  | ############4         |  59% 
+
+
+
+
+
+
+
+matplotlib-base-3.8. | 6.9 MB    | ############9         |  62% [A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ############5         |  60% 
+
+
+
+
+
+
+
+matplotlib-base-3.8. | 6.9 MB    | ###############7      |  75% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+matplotlib-base-3.8. | 6.9 MB    | ##################6   |  89% [A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ############6         |  60% mkl-2023.1.0         | 171.5 MB  | ############7         |  61% mkl-2023.1.0         | 171.5 MB  | ############8         |  61% 
+
+
+
+
+
+
+
+
+pyqt-5.15.10         | 5.0 MB    |                       |   0% [A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ############9         |  61% 
+
+
+
+
+
+
+
+
+pyqt-5.15.10         | 5.0 MB    | ###6                  |  17% [A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ############9         |  62% 
+
+
+
+
+
+
+
+
+pyqt-5.15.10         | 5.0 MB    | #######2              |  34% [A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | #############         |  62% 
+
+
+
+
+
+
+
+
+pyqt-5.15.10         | 5.0 MB    | ##########7           |  51% [A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | #############1        |  63% 
+
+
+
+
+
+
+
+
+pyqt-5.15.10         | 5.0 MB    | ##############7       |  70% [A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | #############2        |  63% 
+
+
+
+
+
+
+
+
+pyqt-5.15.10         | 5.0 MB    | ##################3   |  88% [A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | #############3        |  63% mkl-2023.1.0         | 171.5 MB  | #############4        |  64% mkl-2023.1.0         | 171.5 MB  | #############5        |  64% 
+
+
+
+
+
+
+
+
+
+libcups-2.4.2        | 4.5 MB    |                       |   0% [A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | #############6        |  65% 
+
+
+
+
+
+
+
+
+
+libcups-2.4.2        | 4.5 MB    | ###8                  |  19% [A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | #############7        |  65% 
+
+
+
+
+
+
+
+
+
+libcups-2.4.2        | 4.5 MB    | #######7              |  37% [A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | #############8        |  66% 
+
+
+
+
+
+
+
+
+
+libcups-2.4.2        | 4.5 MB    | ###########3          |  54% [A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | #############9        |  66% 
+
+
+
+
+
+
+
+
+
+libcups-2.4.2        | 4.5 MB    | ###############       |  72% [A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ##############        |  67% mkl-2023.1.0         | 171.5 MB  | ##############        |  67% 
+
+
+
+
+
+
+
+
+
+libcups-2.4.2        | 4.5 MB    | ##################4   |  88% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+pip-23.3.1           | 2.8 MB    | 1                     |   1% [A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ##############2       |  68% 
+
+
+
+
+
+
+
+
+
+
+pip-23.3.1           | 2.8 MB    | ##1                   |  10% [A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ##############2       |  68% 
+
+
+
+
+
+
+
+
+
+
+pip-23.3.1           | 2.8 MB    | ########6             |  41% [A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ##############3       |  69% 
+
+
+
+
+
+
+
+
+
+
+pip-23.3.1           | 2.8 MB    | #############3        |  63% [A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ##############4       |  69% 
+
+
+
+
+
+
+
+
+
+
+pip-23.3.1           | 2.8 MB    | ###################4  |  93% [A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ##############5       |  69% mkl-2023.1.0         | 171.5 MB  | ##############6       |  70% mkl-2023.1.0         | 171.5 MB  | ##############7       |  70% mkl-2023.1.0         | 171.5 MB  | ##############8       |  71% mkl-2023.1.0         | 171.5 MB  | ##############9       |  71% 
+
+
+
+
+
+
+
+
+
+
+
+libpq-12.15          | 2.4 MB    | 1                     |   1% [A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###############       |  71% mkl-2023.1.0         | 171.5 MB  | ###############       |  72% 
+
+
+
+
+
+
+
+
+
+
+
+
+gst-plugins-base-1.1 | 2.2 MB    | 1                     |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libpq-12.15          | 2.4 MB    | #####                 |  24% [A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###############1      |  72% 
+
+
+
+
+
+
+
+
+
+
+
+
+gst-plugins-base-1.1 | 2.2 MB    | #####6                |  27% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libpq-12.15          | 2.4 MB    | ##########7           |  51% [A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###############2      |  73% 
+
+
+
+
+
+
+
+
+
+
+
+libpq-12.15          | 2.4 MB    | ###############5      |  74% [A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###############3      |  73% mkl-2023.1.0         | 171.5 MB  | ###############4      |  74% 
+
+
+
+
+
+
+
+
+
+
+
+
+gst-plugins-base-1.1 | 2.2 MB    | ###########1          |  53% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libpq-12.15          | 2.4 MB    | ####################  |  95% [A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###############5      |  74% 
+
+
+
+
+
+
+
+
+
+
+
+
+gst-plugins-base-1.1 | 2.2 MB    | ###############8      |  76% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+glib-2.69.1          | 1.9 MB    | 1                     |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+glib-2.69.1          | 1.9 MB    | #####8                |  28% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+gst-plugins-base-1.1 | 2.2 MB    | ###################9  |  95% [A[A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###############6      |  74% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+glib-2.69.1          | 1.9 MB    | ############2         |  58% [A[A[A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###############7      |  75% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+glib-2.69.1          | 1.9 MB    | ##################3   |  87% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gstreamer-1.14.1     | 1.7 MB    | 1                     |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###############8      |  75% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gstreamer-1.14.1     | 1.7 MB    | #######6              |  37% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###############8      |  76% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gstreamer-1.14.1     | 1.7 MB    | ################9     |  81% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ###############9      |  76% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setuptools-68.2.2    | 1.2 MB    | 2                     |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | 1                     |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setuptools-68.2.2    | 1.2 MB    | ########              |  39% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | #####9                |  28% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ################      |  76% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setuptools-68.2.2    | 1.2 MB    | ####################2 |  96% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pillow-10.0.1        | 810 KB    | 4                     |   2% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ################1     |  77% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | ###########7          |  56% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pillow-10.0.1        | 810 KB    | #########5            |  45% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ################1     |  77% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | ################9     |  81% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tornado-6.3.3        | 787 KB    | 4                     |   2% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fonttools-4.25.0     | 632 KB    | 5                     |   3% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pillow-10.0.1        | 810 KB    | #################8    |  85% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ################2     |  77% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tornado-6.3.3        | 787 KB    | ######4               |  31% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fonttools-4.25.0     | 632 KB    | ##############3       |  68% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ################3     |  78% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+freetype-2.12.1      | 626 KB    | 5                     |   3% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ################4     |  78% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+freetype-2.12.1      | 626 KB    | #################7    |  84% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sip-6.7.12           | 553 KB    | 6                     |   3% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libxkbcommon-1.0.1   | 590 KB    | 5                     |   3% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ################4     |  79% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sip-6.7.12           | 553 KB    | ###################4  |  93% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libtiff-4.5.1        | 533 KB    | 6                     |   3% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ################5     |  79% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libxcb-1.15          | 505 KB    | 6                     |   3% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ################6     |  79% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libtiff-4.5.1        | 533 KB    | ##################2   |  87% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dbus-1.13.18         | 504 KB    | 6                     |   3% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libwebp-base-1.3.2   | 387 KB    | 8                     |   4% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libxcb-1.15          | 505 KB    | ####################6 |  98% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ################7     |  80% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+openjpeg-2.4.0       | 331 KB    | #                     |   5% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ################8     |  80% 
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   | ##################### | 100% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lcms2-2.12           | 312 KB    | #                     |   5% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ################8     |  80% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lcms2-2.12           | 312 KB    | #################2    |  82% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Amkl-2023.1.0         | 171.5 MB  | ################9     |  81% mkl-2023.1.0         | 171.5 MB  | #################     |  81% mkl-2023.1.0         | 171.5 MB  | #################1    |  82% mkl-2023.1.0         | 171.5 MB  | #################1    |  82% mkl-2023.1.0         | 171.5 MB  | #################2    |  82% mkl-2023.1.0         | 171.5 MB  | #################2    |  82% mkl-2023.1.0         | 171.5 MB  | #################3    |  82% mkl-2023.1.0         | 171.5 MB  | #################3    |  83% mkl-2023.1.0         | 171.5 MB  | #################4    |  83% mkl-2023.1.0         | 171.5 MB  | #################4    |  83% mkl-2023.1.0         | 171.5 MB  | #################5    |  83% mkl-2023.1.0         | 171.5 MB  | #################5    |  84% mkl-2023.1.0         | 171.5 MB  | #################6    |  84% mkl-2023.1.0         | 171.5 MB  | #################7    |  84% mkl-2023.1.0         | 171.5 MB  | #################8    |  85% mkl-2023.1.0         | 171.5 MB  | #################9    |  85% mkl-2023.1.0         | 171.5 MB  | #################9    |  86% mkl-2023.1.0         | 171.5 MB  | ##################    |  86% mkl-2023.1.0         | 171.5 MB  | ##################1   |  86% mkl-2023.1.0         | 171.5 MB  | ##################2   |  87% mkl-2023.1.0         | 171.5 MB  | ##################3   |  87% mkl-2023.1.0         | 171.5 MB  | ##################3   |  88% mkl-2023.1.0         | 171.5 MB  | ##################4   |  88% mkl-2023.1.0         | 171.5 MB  | ##################5   |  88% mkl-2023.1.0         | 171.5 MB  | ##################6   |  89% mkl-2023.1.0         | 171.5 MB  | ##################7   |  89% mkl-2023.1.0         | 171.5 MB  | ##################7   |  90% mkl-2023.1.0         | 171.5 MB  | ##################8   |  90% mkl-2023.1.0         | 171.5 MB  | ##################9   |  90% mkl-2023.1.0         | 171.5 MB  | ###################   |  91% mkl-2023.1.0         | 171.5 MB  | ###################1  |  91% mkl-2023.1.0         | 171.5 MB  | ###################2  |  91% mkl-2023.1.0         | 171.5 MB  | ###################2  |  92% mkl-2023.1.0         | 171.5 MB  | ###################3  |  92% mkl-2023.1.0         | 171.5 MB  | ###################4  |  93% mkl-2023.1.0         | 171.5 MB  | ###################5  |  93% mkl-2023.1.0         | 171.5 MB  | ###################6  |  94% mkl-2023.1.0         | 171.5 MB  | ###################7  |  94% mkl-2023.1.0         | 171.5 MB  | ###################8  |  94% mkl-2023.1.0         | 171.5 MB  | ###################9  |  95% mkl-2023.1.0         | 171.5 MB  | ####################  |  95% mkl-2023.1.0         | 171.5 MB  | ####################1 |  96% mkl-2023.1.0         | 171.5 MB  | ####################2 |  97% mkl-2023.1.0         | 171.5 MB  | ####################5 |  98% mkl-2023.1.0         | 171.5 MB  | ####################7 |  99% mkl-2023.1.0         | 171.5 MB  | ####################9 | 100% 
+
+
+
+
+
+libclang13-14.0.6    | 9.8 MB    | ##################### | 100% [A[A[A[A[A[A
+
+
+python-3.12.0        | 35.0 MB   | ##################### | 100% [A[A[A
+
+
+python-3.12.0        | 35.0 MB   | ##################### | 100% [A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##################### | 100% [A[A[A[A
+
+
+
+libllvm14-14.0.6     | 33.4 MB   | ##################### | 100% [A[A[A[A
+
+
+
+
+
+
+
+matplotlib-base-3.8. | 6.9 MB    | ##################### | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libcups-2.4.2        | 4.5 MB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+numpy-base-1.26.2    | 7.7 MB    | ##################### | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+numpy-base-1.26.2    | 7.7 MB    | ##################### | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+pyqt-5.15.10         | 5.0 MB    | ##################### | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+pip-23.3.1           | 2.8 MB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libpq-12.15          | 2.4 MB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+gst-plugins-base-1.1 | 2.2 MB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+glib-2.69.1          | 1.9 MB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gstreamer-1.14.1     | 1.7 MB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setuptools-68.2.2    | 1.2 MB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pillow-10.0.1        | 810 KB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fonttools-4.25.0     | 632 KB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tornado-6.3.3        | 787 KB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tornado-6.3.3        | 787 KB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+freetype-2.12.1      | 626 KB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libxkbcommon-1.0.1   | 590 KB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libxkbcommon-1.0.1   | 590 KB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sip-6.7.12           | 553 KB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libtiff-4.5.1        | 533 KB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libxcb-1.15          | 505 KB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libwebp-base-1.3.2   | 387 KB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libwebp-base-1.3.2   | 387 KB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dbus-1.13.18         | 504 KB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dbus-1.13.18         | 504 KB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+openjpeg-2.4.0       | 331 KB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+openjpeg-2.4.0       | 331 KB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lcms2-2.12           | 312 KB    | ##################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+qt-main-5.15.2       | 53.7 MB   | ##################### | 100% [A[Amkl-2023.1.0         | 171.5 MB  | ##################### | 100% 
+mysql-5.7.24         | 60.0 MB   | ##################### | 100% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A                                                                
+                                                                [A
+
+                                                                [A[A
+
+
+                                                                [A[A[A
+
+
+
+                                                                [A[A[A[A
+
+
+
+
+                                                                [A[A[A[A[A
+
+
+
+
+
+                                                                [A[A[A[A[A[A
+
+
+
+
+
+
+                                                                [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                                [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                                [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                                [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                                [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                                [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+Preparing transaction: / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+Verifying transaction: / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
+Executing transaction: \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | done
+[?2004h(env-test) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ conda install --nan[Kme env[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mconda install conda-forge::n[27m[7mu[27m[7mmpy[27m[A(env-test) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ conda install conda-forge::numpy
+[?2004lChannels:
+ - defaults
+ - conda-forge
+Platform: linux-64
+Collecting package metadata (repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | done
+Solving environment: - \ done
+
+# All requested packages already installed.
+
+[?2004h(env-test) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ conda version
+[?2004lusage: conda [-h] [-v] [--no-plugins] [-V] COMMAND ...
+conda: error: argument COMMAND: invalid choice: 'version' (choose from 'activate', 'deactivate', 'clean', 'compare', 'config', 'create', 'info', 'init', 'install', 'list', 'notices', 'package', 'remove', 'uninstall', 'rename', 'run', 'search', 'update', 'upgrade', 'content-trust', 'doctor', 'repoquery', 'env')
+[?2004h(env-test) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ conda version-version-version
+[?2004lconda 23.11.0
+[?2004h(env-test) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ conda uda[K[Kpdate conda
+[?2004l
+PackageNotInstalledError: Package is not installed in prefix.
+  prefix: /home/raghul_5677/miniconda3/envs/env-test
+  package name: conda
+
+
+[?2004h(env-test) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ conda activate
+[?2004l[?2004h(base) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ conda activateupdate conda
+[?2004lChannels:
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): - \ | / - \ | done
+Solving environment: - \ done
+
+# All requested packages already installed.
+
+[?2004h(base) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ [7mbash Miniconda3-latest-Linux-x86[27m[7m_[27m[7m64.sh[27m[A(base) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ bash Miniconda3-latest-Linux-x86_64.sh
+[?2004lbash: Miniconda3-latest-Linux-x86_64.sh: No such file or directory
+[?2004h(base) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mGit_session[0m
+Miniconda3-py310_23.11.0-2-Linux-x86_64.sh
+[01;34mminiconda3[0m
+my_git_session
+my_miniconda_session
+my_unix_session2
+[01;34mshell-lesson-data[0m
+[?2004h(base) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ bash Miniconda3-py310_23.11.0-2-Linux-x86_64.sh 
+[?2004l
+Welcome to Miniconda3 py310_23.11.0-2
+
+In order to continue the installation process, please review the license
+agreement.
+Please, press ENTER to continue
+>>> ^C
+[?2004h(base) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ conda lost[K[K[Kist
+[?2004l# packages in environment at /home/raghul_5677/miniconda3:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             5.1                       1_gnu  
+archspec                  0.2.1              pyhd3eb1b0_0  
+boltons                   23.0.0          py310h06a4308_0  
+brotli-python             1.0.9           py310h6a678d5_7  
+bzip2                     1.0.8                h7b6447c_0  
+c-ares                    1.19.1               h5eee18b_0  
+ca-certificates           2023.12.12           h06a4308_0  
+certifi                   2023.11.17      py310h06a4308_0  
+cffi                      1.16.0          py310h5eee18b_0  
+charset-normalizer        2.0.4              pyhd3eb1b0_0  
+conda                     23.11.0         py310h06a4308_0  
+conda-content-trust       0.2.0           py310h06a4308_0  
+conda-libmamba-solver     23.12.0            pyhd3eb1b0_1  
+conda-package-handling    2.2.0           py310h06a4308_0  
+conda-package-streaming   0.9.0           py310h06a4308_0  
+cryptography              41.0.7          py310hdda0065_0  
+distro                    1.8.0           py310h06a4308_0  
+fmt                       9.1.0                hdb19cb5_0  
+icu                       73.1                 h6a678d5_0  
+idna                      3.4             py310h06a4308_0  
+jsonpatch                 1.32               pyhd3eb1b0_0  
+jsonpointer               2.1                pyhd3eb1b0_0  
+krb5                      1.20.1               h143b758_1  
+ld_impl_linux-64          2.38                 h1181459_1  
+libarchive                3.6.2                h6ac8c49_2  
+libcurl                   8.4.0                h251f7ec_1  
+libedit                   3.1.20230828         h5eee18b_0  
+libev                     4.33                 h7f8727e_1  
+libffi                    3.4.4                h6a678d5_0  
+libgcc-ng                 11.2.0               h1234567_1  
+libgomp                   11.2.0               h1234567_1  
+libmamba                  1.5.3                haf1ee3a_0  
+libmambapy                1.5.3           py310h2dafd23_0  
+libnghttp2                1.57.0               h2d74bed_0  
+libsolv                   0.7.24               he621ea3_0  
+libssh2                   1.10.0               hdbd6064_2  
+libstdcxx-ng              11.2.0               h1234567_1  
+libuuid                   1.41.5               h5eee18b_0  
+libxml2                   2.10.4               hf1b16e4_1  
+lz4-c                     1.9.4                h6a678d5_0  
+menuinst                  2.0.1           py310h06a4308_1  
+ncurses                   6.4                  h6a678d5_0  
+openssl                   3.0.12               h7f8727e_0  
+packaging                 23.1            py310h06a4308_0  
+pcre2                     10.42                hebb0a14_0  
+pip                       23.3.1          py310h06a4308_0  
+platformdirs              3.10.0          py310h06a4308_0  
+pluggy                    1.0.0           py310h06a4308_1  
+pybind11-abi              4                    hd3eb1b0_1  
+pycosat                   0.6.6           py310h5eee18b_0  
+pycparser                 2.21               pyhd3eb1b0_0  
+pyopenssl                 23.2.0          py310h06a4308_0  
+pysocks                   1.7.1           py310h06a4308_0  
+python                    3.10.13              h955ad1f_0  
+readline                  8.2                  h5eee18b_0  
+reproc                    14.2.4               h295c915_1  
+reproc-cpp                14.2.4               h295c915_1  
+requests                  2.31.0          py310h06a4308_0  
+ruamel.yaml               0.17.21         py310h5eee18b_0  
+ruamel.yaml.clib          0.2.6           py310h5eee18b_1  
+setuptools                68.2.2          py310h06a4308_0  
+sqlite                    3.41.2               h5eee18b_0  
+tk                        8.6.12               h1ccaba5_0  
+tqdm                      4.65.0          py310h2f386ee_0  
+truststore                0.8.0           py310h06a4308_0  
+tzdata                    2023c                h04d1e81_0  
+urllib3                   1.26.18         py310h06a4308_0  
+wheel                     0.41.2          py310h06a4308_0  
+xz                        5.4.5                h5eee18b_0  
+yaml-cpp                  0.8.0                h6a678d5_0  
+zlib                      1.2.13               h5eee18b_0  
+zstandard                 0.19.0          py310h5eee18b_0  
+zstd                      1.5.5                hc292b87_0  
+[?2004h(base) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ conda install --help
+[?2004lusage: conda install [-h] [--revision REVISION]
+                     [-n ENVIRONMENT | -p PATH] [-c CHANNEL]
+                     [--use-local] [--override-channels]
+                     [--repodata-fn REPODATA_FNS]
+                     [--experimental {jlap,lock}] [--no-lock]
+                     [--strict-channel-priority]
+                     [--no-channel-priority]
+                     [--no-deps | --only-deps] [--no-pin]
+                     [--copy] [--no-shortcuts]
+                     [--shortcuts-only SHORTCUTS_ONLY] [-C]
+                     [-k] [--offline] [--json] [-v] [-q] [-d]
+                     [-y] [--download-only]
+                     [--show-channel-urls] [--file FILE]
+                     [--solver {classic,libmamba}]
+                     [--force-reinstall]
+                     [--freeze-installed | --update-deps | -S | --update-all | --update-specs]
+                     [-m] [--clobber] [--dev]
+                     [package_spec ...]
+
+Install a list of packages into a specified conda environment.
+
+This command accepts a list of package specifications (e.g, bitarray=0.8)
+and installs a set of packages consistent with those specifications and
+compatible with the underlying environment. If full compatibility cannot
+be assured, an error is reported and the environment is not changed.
+
+Conda attempts to install the newest versions of the requested packages. To
+accomplish this, it may update some packages that are already installed, or
+install additional packages. To prevent existing packages from updating,
+use the --freeze-installed option. This may force conda to install older
+versions of the requested packages, and it does not prevent additional
+dependency packages from being installed.
+
+If you wish to skip dependency checking altogether, use the '--no-deps'
+option. This may result in an environment with incompatible packages, so
+this option must be used with great caution.
+
+conda can also be called with a list of explicit conda package filenames
+(e.g. ./lxml-3.2.0-py27_0.tar.bz2). Using conda in this mode implies the
+--no-deps option, and should likewise be used with great caution. Explicit
+filenames and package specifications cannot be mixed in a single command.
+
+positional arguments:
+  package_spec          List of packages to install or update
+                        in the conda environment.
+
+options:
+  -h, --help            Show this help message and exit.
+  --revision REVISION   Revert to the specified REVISION.
+  --file FILE           Read package versions from the given
+                        file. Repeated file specifications can
+                        be passed (e.g. --file=file1
+                        --file=file2).
+  --dev                 Use `sys.executable -m conda` in
+                        wrapper scripts instead of CONDA_EXE.
+                        This is mainly for use during tests
+                        where we test new conda sources
+                        against old Python versions.
+
+Target Environment Specification:
+  -n ENVIRONMENT, --name ENVIRONMENT
+                        Name of environment.
+  -p PATH, --prefix PATH
+                        Full path to environment location
+                        (i.e. prefix).
+
+Channel Customization:
+  -c CHANNEL, --channel CHANNEL
+                        Additional channel to search for
+                        packages. These are URLs searched in
+                        the order they are given (including
+                        local directories using the 'file://'
+                        syntax or simply a path like
+                        '/home/conda/mychan' or '../mychan').
+                        Then, the defaults or channels from
+                        .condarc are searched (unless
+                        --override-channels is given). You can
+                        use 'defaults' to get the default
+                        packages for conda. You can also use
+                        any name and the .condarc
+                        channel_alias value will be prepended.
+                        The default channel_alias is
+                        https://conda.anaconda.org/.
+  --use-local           Use locally built packages. Identical
+                        to '-c local'.
+  --override-channels   Do not search default or .condarc
+                        channels. Requires --channel.
+  --repodata-fn REPODATA_FNS
+                        Specify file name of repodata on the
+                        remote server where your channels are
+                        configured or within local backups.
+                        Conda will try whatever you specify,
+                        but will ultimately fall back to
+                        repodata.json if your specs are not
+                        satisfiable with what you specify
+                        here. This is used to employ repodata
+                        that is smaller and reduced in time
+                        scope. You may pass this flag more
+                        than once. Leftmost entries are tried
+                        first, and the fallback to
+                        repodata.json is added for you
+                        automatically. For more information,
+                        see conda config --describe
+                        repodata_fns.
+  --experimental {jlap,lock}
+                        jlap: Download incremental package
+                        index data from repodata.jlap; implies
+                        'lock'. lock: use locking when
+                        reading, updating index
+                        (repodata.json) cache. Now enabled.
+  --no-lock             Disable locking when reading, updating
+                        index (repodata.json) cache.
+
+Solver Mode Modifiers:
+  --strict-channel-priority
+                        Packages in lower priority channels
+                        are not considered if a package with
+                        the same name appears in a higher
+                        priority channel.
+  --no-channel-priority
+                        Package version takes precedence over
+                        channel priority. Overrides the value
+                        given by `conda config --show
+                        channel_priority`.
+  --no-deps             Do not install, update, remove, or
+                        change dependencies. This WILL lead to
+                        broken environments and inconsistent
+                        behavior. Use at your own risk.
+  --only-deps           Only install dependencies.
+  --no-pin              Ignore pinned file.
+  --solver {classic,libmamba}
+                        Choose which solver backend to use.
+  --force-reinstall     Ensure that any user-requested package
+                        for the current operation is
+                        uninstalled and reinstalled, even if
+                        that package already exists in the
+                        environment.
+  --freeze-installed, --no-update-deps
+                        Do not update or change already-
+                        installed dependencies.
+  --update-deps         Update dependencies that have
+                        available updates.
+  -S, --satisfied-skip-solve
+                        Exit early and do not run the solver
+                        if the requested specs are satisfied.
+                        Also skips aggressive updates as
+                        configured by the
+                        'aggressive_update_packages' config
+                        setting. Use 'conda info --describe
+                        aggressive_update_packages' to view
+                        your setting. --satisfied-skip-solve
+                        is similar to the default behavior of
+                        'pip install'.
+  --update-all, --all   Update all installed packages in the
+                        environment.
+  --update-specs        Update based on provided
+                        specifications.
+
+Package Linking and Install-time Options:
+  --copy                Install all packages using copies
+                        instead of hard- or soft-linking.
+  --no-shortcuts        Don't install start menu shortcuts
+  --shortcuts-only SHORTCUTS_ONLY
+                        Install shortcuts only for this
+                        package name. Can be used several
+                        times.
+  -m, --mkdir           Create the environment directory, if
+                        necessary.
+  --clobber             Allow clobbering (i.e. overwriting) of
+                        overlapping file paths within packages
+                        and suppress related warnings.
+
+Networking Options:
+  -C, --use-index-cache
+                        Use cache of channel index files, even
+                        if it has expired. This is useful if
+                        you don't want conda to check whether
+                        a new version of the repodata file
+                        exists, which will save bandwidth.
+  -k, --insecure        Allow conda to perform "insecure" SSL
+                        connections and transfers. Equivalent
+                        to setting 'ssl_verify' to 'false'.
+  --offline             Offline mode. Don't connect to the
+                        Internet.
+
+Output, Prompt, and Flow Control Options:
+  --json                Report all output as json. Suitable
+                        for using conda programmatically.
+  -v, --verbose         Can be used multiple times. Once for
+                        detailed output, twice for INFO
+                        logging, thrice for DEBUG logging,
+                        four times for TRACE logging.
+  -q, --quiet           Do not display progress bar.
+  -d, --dry-run         Only display what would have been
+                        done.
+  -y, --yes             Sets any confirmation values to 'yes'
+                        automatically. Users will not be asked
+                        to confirm any adding, deleting,
+                        backups, etc.
+  --download-only       Solve an environment and ensure
+                        package caches are populated, but exit
+                        prior to unlinking and linking
+                        packages into the prefix.
+  --show-channel-urls   Show channel urls. Overrides the value
+                        given by `conda config --show
+                        show_channel_urls`.
+
+Examples:
+
+Install the package 'scipy' into the currently-active environment::
+
+    conda install scipy
+
+Install a list of packages into an environment, myenv::
+
+    conda install -n myenv scipy curl wheel
+
+Install a specific version of 'python' into an environment, myenv::
+
+    conda install -p path/to/myenv python=3.11
+[?2004h(base) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ conda i[Klist --name
+[?2004lusage: conda list [-h] [-n ENVIRONMENT | -p PATH] [--json]
+                  [-v] [-q] [--show-channel-urls] [--reverse]
+                  [-c] [-f] [--explicit] [--md5] [-e] [-r]
+                  [--no-pip]
+                  [regex]
+conda list: error: argument -n/--name: expected one argument
+[?2004h(base) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ conda list --name env-l[Ktest
+[?2004l# packages in environment at /home/raghul_5677/miniconda3/envs/env-test:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             5.1                       1_gnu  
+blas                      1.0                         mkl  
+brotli                    1.0.9                h5eee18b_7  
+brotli-bin                1.0.9                h5eee18b_7  
+bzip2                     1.0.8                h7b6447c_0  
+ca-certificates           2023.12.12           h06a4308_0  
+contourpy                 1.2.0           py312hdb19cb5_0  
+cycler                    0.11.0             pyhd3eb1b0_0  
+cyrus-sasl                2.1.28               h52b45da_1  
+dbus                      1.13.18              hb2f20db_0  
+expat                     2.5.0                h6a678d5_0  
+fontconfig                2.14.1               h4c34cd2_2  
+fonttools                 4.25.0             pyhd3eb1b0_0  
+freetype                  2.12.1               h4a9f257_0  
+giflib                    5.2.1                h5eee18b_3  
+glib                      2.69.1               he621ea3_2  
+gst-plugins-base          1.14.1               h6a678d5_1  
+gstreamer                 1.14.1               h5eee18b_1  
+icu                       73.1                 h6a678d5_0  
+intel-openmp              2023.1.0         hdb19cb5_46306  
+jpeg                      9e                   h5eee18b_1  
+kiwisolver                1.4.4           py312h6a678d5_0  
+krb5                      1.20.1               h143b758_1  
+lcms2                     2.12                 h3be6417_0  
+ld_impl_linux-64          2.38                 h1181459_1  
+lerc                      3.0                  h295c915_0  
+libbrotlicommon           1.0.9                h5eee18b_7  
+libbrotlidec              1.0.9                h5eee18b_7  
+libbrotlienc              1.0.9                h5eee18b_7  
+libclang                  14.0.6          default_hc6dbbc7_1  
+libclang13                14.0.6          default_he11475f_1  
+libcups                   2.4.2                h2d74bed_1  
+libdeflate                1.17                 h5eee18b_1  
+libedit                   3.1.20230828         h5eee18b_0  
+libffi                    3.4.4                h6a678d5_0  
+libgcc-ng                 11.2.0               h1234567_1  
+libgomp                   11.2.0               h1234567_1  
+libllvm14                 14.0.6               hdb19cb5_3  
+libpng                    1.6.39               h5eee18b_0  
+libpq                     12.15                hdbd6064_1  
+libstdcxx-ng              11.2.0               h1234567_1  
+libtiff                   4.5.1                h6a678d5_0  
+libuuid                   1.41.5               h5eee18b_0  
+libwebp                   1.3.2                h11a3e52_0  
+libwebp-base              1.3.2                h5eee18b_0  
+libxcb                    1.15                 h7f8727e_0  
+libxkbcommon              1.0.1                h5eee18b_1  
+libxml2                   2.10.4               hf1b16e4_1  
+lz4-c                     1.9.4                h6a678d5_0  
+matplotlib                3.8.0           py312h06a4308_0  
+matplotlib-base           3.8.0           py312h526ad5a_0  
+mkl                       2023.1.0         h213fc3f_46344  
+mkl-service               2.4.0           py312h5eee18b_1  
+mkl_fft                   1.3.8           py312h5eee18b_0  
+mkl_random                1.2.4           py312hdb19cb5_0  
+munkres                   1.1.4                      py_0  
+mysql                     5.7.24               h721c034_2  
+ncurses                   6.4                  h6a678d5_0  
+numpy                     1.26.2          py312hc5e2394_0  
+numpy-base                1.26.2          py312h0da6c21_0  
+openjpeg                  2.4.0                h3ad879b_0  
+openssl                   3.0.12               h7f8727e_0  
+packaging                 23.1            py312h06a4308_0  
+pcre                      8.45                 h295c915_0  
+pillow                    10.0.1          py312ha6cbd5a_0  
+pip                       23.3.1          py312h06a4308_0  
+ply                       3.11            py312h06a4308_1  
+pyparsing                 3.0.9           py312h06a4308_0  
+pyqt                      5.15.10         py312h6a678d5_0  
+pyqt5-sip                 12.13.0         py312h5eee18b_0  
+python                    3.12.0               h996f2a0_0  
+python-dateutil           2.8.2              pyhd3eb1b0_0  
+qt-main                   5.15.2              h53bd1ea_10  
+readline                  8.2                  h5eee18b_0  
+setuptools                68.2.2          py312h06a4308_0  
+sip                       6.7.12          py312h6a678d5_0  
+six                       1.16.0             pyhd3eb1b0_1  
+sqlite                    3.41.2               h5eee18b_0  
+tbb                       2021.8.0             hdb19cb5_0  
+tk                        8.6.12               h1ccaba5_0  
+tornado                   6.3.3           py312h5eee18b_0  
+tzdata                    2023c                h04d1e81_0  
+wheel                     0.41.2          py312h06a4308_0  
+xz                        5.4.5                h5eee18b_0  
+zlib                      1.2.13               h5eee18b_0  
+zstd                      1.5.5                hc292b87_0  
+[?2004h(base) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ conda update pythoN[Kn*
+[?2004l
+CondaError: Invalid spec for 'conda update': python*
+Use 'conda install' instead.
+
+[?2004h(base) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ conda update python*[K
+[?2004lChannels:
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): - \ | / - \ | done
+Solving environment: - done
+
+# All requested packages already installed.
+
+[?2004h(base) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ co[K[Kpython --version
+[?2004lPython 3.10.13
+[?2004h(base) ]0;raghul_5677@TIGER0821: ~[01;32mraghul_5677@TIGER0821[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2023-12-31 11:34:37+05:30 [COMMAND_EXIT_CODE="0"]

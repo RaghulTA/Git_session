@@ -1,0 +1,329 @@
+    1  cd
+    2  ls
+    3  ks
+    4  pwd
+    5  ls -F
+    6  ls -f
+    7  ls -F
+    8  clear
+    9  ls --help
+   10  ls -d
+   11  clear
+   12  ls
+   13  clear
+   14  cd --help
+   15  help cd
+   16  clear
+   17  ls -j
+   18  man ls
+   19  ls --man
+   20  ls --help
+   21  ls -l
+   22  ls
+   23  ls -l -h
+   24  ls -t
+   25  ls --help
+   26  ls -r
+   27  ls -t-r
+   28  ls -t -r
+   29  ls -t -r -l
+   30  ls -rt
+   31  ls -f Desktop/
+   32  ls -F Desktop/
+   33  ls -F Desktop/shell-lesson-data/
+   34  cd Desktop/
+   35  cd shell-lesson-data/
+   36  cd exercise-data/
+   37  pwd
+   38  ls -F
+   39  cd ..
+   40  pwd
+   41  ls
+   42  ls -Fa
+   43  cd
+   44  pwd
+   45  cd Desktop/shell-lesson-data/exercise-data/
+   46  pwd
+   47  cd /c/Users/raghul.singh/Desktop/
+   48  cd /c/Users/raghul.singh/Desktop
+   49  cd ~/shell-lesson-data
+   50  cd ~/Desktop/shell-lesson-data/
+   51  cd exercise-data/creatures/
+   52  cd -
+   53  cd -
+   54  cd -
+   55  cd -
+   56  cd
+   57  cd -
+   58  cd .
+   59  pwd
+   60  cd /c/Users/raghul.singh/
+   61  cd /
+   62  ls
+   63  cd
+   64  ls
+   65  cd Desktop/
+   66  cd /
+   67  ls
+   68  cd .
+   69  cd
+   70  cd /
+   71  ls
+   72  cd
+   73  cd Desktop/shell-lesson-data/
+   74  cd ../..
+   75  ls
+   76  pwd
+   77  cd
+   78  cd ~
+   79  cd Desktop/
+   80  cd shell-lesson-data/
+   81  ls -F ..
+   82  pwd
+   83  cd ..
+   84  pwd
+   85  ls -F ../Documents/
+   86  cd..
+   87  cd
+   88  cleawr
+   89  clear
+   90  ls -F/
+   91  cd Desktop/shell-lesson-data/
+   92  ls -s exercise-data/\
+   93  ls -s exercise-data/
+   94  ls -S exercise-data/
+   95  ls -S exercise-data
+   96  ls -F /
+   97  cd
+   98  cd /
+   99  pwd
+  100  cd
+  101  pwd
+  102  clear
+  103  cd Desktop/shell-lesson-data/
+  104  ls
+  105  cd north-pacific-gyre/ ls
+  106  cd north-pacific-gyre/
+  107  ls
+  108  cd ..cd ..
+  109  cd ..
+  110  ls
+  111  cd north-pacific-gyre/goo
+  112  pwd
+  113  cd exercise-data/
+  114  ls
+  115  cd ..
+  116  pwd
+  117  cd exercise-data/writing/
+  118  ls
+  119  mkdir thesis
+  120  ls
+  121  ls -F
+  122  ls thesis/
+  123  cd ..
+  124  cd ..
+  125  cd ..
+  126  mkdir -p /project/data ../project/results
+  127  cd shell-lesson-data/
+  128  cd exercise-data/
+  129  mkdir -p ../project/data ../prject/reults
+  130  cd ..
+  131  ls
+  132  rmdir prject
+  133  rmdir -r prject
+  134  ls prject
+  135  ls project
+  136  mkdir north pacific gyre
+  137  ls
+  138  cd ..
+  139  cd shell-lesson-data/
+  140  ls
+  141  cd exercise-data/
+  142  ls
+  143  cd ..
+  144  cd exercise-data/
+  145  ls
+  146  cd writing/
+  147  ls
+  148  cd thesis/
+  149  clear
+  150  pwd
+  151  nano draft.txt
+  152  ls
+  153  touch my_file.txt
+  154  ls -l
+  155  rm my_file.txt 
+  156  ls
+  157  cd ..
+  158  ls
+  159  cd ~
+  160  ls
+  161  cd Desktop/
+  162  cd shell-lesson-data/exercise-data/writing/
+  163  pwd
+  164  mv thesis/draft.txt thesis/quotes.txt
+  165  ls
+  166  cd thesis/
+  167  ls
+  168  cd ..
+  169  mv thesis/quotes.txt .
+  170  ls
+  171  ls thesis/
+  172  ls thesis/quotes.txt
+  173  ls
+  174  cp quotes.txt thesis/quotations.txt
+  175  cp -r thesis/ thesis_backup
+  176  ls
+  177  ls thesis thesis_backup/
+  178  cp thesis/ thesis_backup
+  179  ls
+  180  cd ..
+  181  ls
+  182  cd ..
+  183  ls
+  184  rm -r gyre/
+  185  rm -r north
+  186  rm -r north-pacific-gyre/
+  187  rm -r pacific/
+  188  ls
+  189  rm -r prject
+  190  rm -r project
+  191  ls
+  192  clear
+  193  cd exercise-data/
+  194  ls
+  195  cd writing/
+  196  ls
+  197  rm quotes.txt 
+  198  rm -i thesis_backup/quotations.txt 
+  199  rm thesis
+  200  rm -ri thesis
+  201  ls
+  202  cd thesis_backup/
+  203  ls
+  204  cd ..
+  205  ls
+  206  cd ..
+  207  ls
+  208  mkdir backup
+  209  cp creatures/minotaur.dat creatures/unicorn.dat backup/
+  210  ls
+  211  cd alkanes/
+  212  ls
+  213  ls *th??ne.pdb
+  214  ls
+  215  ls *t??ne.pdb~
+  216  ls *.pdb
+  217  ls *thane.pdb
+  218  ls *t?ne.pdb
+  219  ls *t??ne.pdb
+  220  ls
+  221  pwd
+  222  clear
+  223  ls
+  224  wc cubane.pdb 
+  225  wc *.pdb
+  226  wc -l
+  227  wc -l *.pdb
+  228  wc -m *.pdb
+  229  wc -w *.pdb
+  230  wc -l
+  231  wc -l *.pdb > length.txt
+  232  ls
+  233  ls length.txt 
+  234  cat length.txt 
+  235  less length.txt 
+  236  cd ..
+  237  ls
+  238  cat numbers.txt 
+  239  cd alkanes/
+  240  ls
+  241  sort -n length.txt 
+  242  sort -n length.txt > sorted-lengths.txt
+  243  head -n 1 sorted-lengths.txt 
+  244  head -n 3 sorted-lengths.txt 
+  245  head sorted-lengths.txt 
+  246  echo The echo cmd prints text
+  247  echo hello > testfile-1.txt
+  248  ls
+  249  mv testfile-1.txt testfile01.txt 
+  250  ls
+  251  echo hello > testfile01.txt
+  252  echo hello >> testfile02.txt
+  253  echo hello >> testfile02.txt
+  254  head testfile01.txt 
+  255  head testfile02.txt 
+  256  ls
+  257  cd ..
+  258  ls
+  259  cd animal-counts/animals.csv 
+  260  cd animal-counts/
+  261  ls
+  262  pwd
+  263  head -n 3 animals.csv > animals-subset.csv
+  264  tail -n 2 animals.csv >> animals-subset.csv 
+  265  ls
+  266  cd ..
+  267  ls
+  268  cd ..
+  269  ls
+  270  cd exercise-data/
+  271  ls
+  272  ec writing/
+  273  cd writing/
+  274  ls
+  275  cd ..
+  276  ls
+  277  cd alkanes/
+  278  ls
+  279  sort -n length.txt
+  280  sort -n length.txt | head -n 1
+  281  wc -l *.pdb
+  282  wc -l *.pdb | sort -n
+  283  wc -l *.pdb | sort -n | head -n 2
+  284  pwd
+  285  wc -l *
+  286  wc -l * | sort -n | head -n 3
+  287  cd ..
+  288  ls
+  289  cd animal-counts/
+  290  ls
+  291  cat animals.csv 
+  292  cat animals.csv | head -n 5
+  293  cat animals.csv | head -n 5 | tail -n 3
+  294  cat animals.csv | head -n 5 | tail -n 3 | sort -r
+  295  cat animals.csv | head -n 5 | tail -n 3 | sort -r > final.txt
+  296  cat final.txt 
+  297  cut -d , -f 2 animals.csv 
+  298  cut -d , -f 2 animals.csv | sort | uniq
+  299  cut -d , -f 2 animals.csv | uniq
+  300  cut -d , -f 2 animals.csv | sort | uniq
+  301  uniq --help
+  302  pwd
+  303  cut -d , -f 2 animals.csv | sort | uniq -c
+  304  cut -d , -f 2 animals.csv | sort
+  305  cut -d , -f 2 animals.csv | sort | uniq -c
+  306  cd ..
+  307  cd ..
+  308  ls
+  309  ls
+  310  cd north-pacific-gyre/
+  311  ls
+  312  wc -l *.txt
+  313  wc -l *.txt | sort -n | head -n 5
+  314  wc -l *.txt | sort -n | tail -n 5
+  315  ls *Z.txt
+  316  ls NENE*A.txt
+  317  ls NENE*A.txt NENE*B.txt
+  318  script -a ~/my_unix_session
+  319  cd
+  320  script -a ~/my_unix_session
+  321  $ script -a ~/my_unix_session
+  322  ls
+  323  cd Desktop/
+  324  ls
+  325  cd shell-lesson-data/
+  326  cd
+  327  history
+  328  history my_unix_session
+  329  history > my_unix_session
