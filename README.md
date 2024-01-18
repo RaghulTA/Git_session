@@ -1,1 +1,1 @@
-# Git_session
+# Git, Unix and Conda session
